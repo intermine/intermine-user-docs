@@ -1,0 +1,7 @@
+Pathways
+========
+
+.. toctree::
+   :maxdepth: 3
+
+   cookbookpathways.txt

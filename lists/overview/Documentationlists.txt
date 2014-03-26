@@ -1,0 +1,220 @@
+﻿.. _lists:
+
+
+
+
+Lists
+====
+
+
+Overview
+-------------
+
+
+A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites.  A list can not contain a mixture of types - e.g. genes and proteins.
+
+
+
+
+What is a public list?
+---------------------------
+
+
+A public list is an interesting list that has been created by the InterMine developers.  For example, FlyMine has public lists for sets of transcription factors in *Drosophila*. These can be used by anyone for analysis and running searches.  If you wish to modify a public list you need to first make your own copy (:ref:`listscopy`).
+
+
+How do I make a list?
+-----------------------------
+
+
+Lists can be created internally - for example from :ref:`resultstables` or the :ref:`regionsearch`, or they can be uploaded from an external source: :ref:`listupload`.  **NOTE**:  Remember to create a :ref:`mymine` account if you want to permanently store your list.
+
+
+
+
+.. _listsview:
+
+
+How do I view my list?
+------------------------------
+
+
+To find a list, navigate to the lists tab and click on the **view** sub tab.  All your lists and the public lists will be shown here.  **NOTE**: remember to login to view previously stored lists.   You can also manage your lists through your :ref:`mymine` account.
+
+
+
+
+.. _listsmanage:
+
+
+Managing your lists
+--------------------------
+
+
+You can manage your lists through your :ref:`mymine` account.  Here you can delete, rename and upgrade lists (if your identifiers have become outdated).
+
+
+.. _listtags:
+
+
+List Tags
+------------
+
+
+Tags can be used to organise your lists into categories.  Tags can be added on the list analysis page or in your :ref:`mymine` account.  You can then filter your lists by tags on the lists view page (see :ref:`listsview`):
+
+
+
+
+.. image:: ../../_images/listsaddfiltertags.png
+
+
+
+
+
+
+.. _listssearch:
+
+
+Using lists in searches
+------------------------------
+You can run searches on a list - for example a template search or a search you have built yourself using the query builder.  For example, you may want to run a search to find all the GO terms for a list of genes.  You can do this from the template form (see :ref:`templatesearchelists`).   
+
+
+.. _listsanalysis:
+
+
+List Analysis
+-----------------
+
+
+All lists have an associated :ref:`listanalysispage`, which provide a summary of your list and several analysis tools.   In addition it is possible to carry out powerful analysis using the list operations: union, intersect, subtract and asymmetric difference (see :ref:`listsetoperations`).
+
+
+
+
+.. _listsetoperations:
+
+
+List Set operations:
+--------------------------
+
+
+Sets of lists can be analysed using the union, intersect, subtract and asymmetric difference functions.  These set operations are available on both the lists view (:ref:`listsview`) page and the lists page within your :ref:`mymine` account.  To use any of these functions:
+
+
+        1. Select the lists you wish to analyse.
+        2. Select the function
+        3. Provide a name for your resulting list
+        4. Click **save**:  Your results will appear as a list at the top of the page.
+
+
+NOTE:  If you are on your myMine list page, you provide a name for your new list and then select the function you wish to use.
+
+
+
+
+**Note:**
+
+
+**Subtract:**  This function creates a list that contains the unique entries from **both** lists provided:  i.e it is like the opposite of an intersect:  if an object is in both lists it will not be in the resulting list, but if it appears in either one, but not the other it will be in the resulting list.
+
+
+**Asymmetric difference:**   This is more of a traditional ‘subtract’ function, in that the resulting list will contain objects that are in one of the lists only.  For example if you have lists A and B and you want to find those unique to list B, use the asymmetric difference function.  Note that this function gives you the option to perform the subtraction either way - ie, A-B or B-A.
+
+
+
+
+.. _listscopy:
+
+
+How do I copy a list?
+---------------------------
+
+
+You can copy a list either in the lists tab of your :ref:`mymine` account or from the lists **view** (:ref:`listsview`) page.  Select your list and click on **copy**.  A new list will be created with the same name and an underscore number.  You should see a message at the top of the page informing you of the new list that has been created.
+
+
+
+
+.. _listsdelete:
+
+
+How do I delete a list?
+------------------------------
+
+
+You can delete a list either in the lists tab of your :ref:`mymine` account or from the lists **view** (:ref:`listsview`) page.  Select your list and click on **delete**, your list will be deleted straight away.
+
+
+.. _listsrename
+
+
+How do I rename a list?
+-------------------------------
+
+
+To rename a list you must be in your :ref:`mymine` account.  Click on the rename icon next to the list name to provide the new name:
+
+
+.. image:: ../../_images/lists_renamelists.png
+
+
+
+
+.. _listsdownload:
+
+
+
+
+How do I download a list?
+-----------------------------
+
+
+Lists can be downloaded from the lists view page (:ref:`listsview`), from where the full functionality of :ref:`resultstables` is available.  See :ref:`resultsdownload`.
+
+
+
+
+
+
+.. _listsshare:
+
+
+How do I share a list with a colleague?
+---------------------------------------------------
+
+
+Lists can be shared with your colleagues.  To share a list you must be in your :ref:`mymine` account.  Under each list you will see **share with users**.  Enter the email address of the person you wish to share your list with.  If possible try to use the email address that the person uses to log into InterMine.  However, don’t worry if you do not know which one they use as they will be sent an email explaining how to use the list.  The following email is sent (personal information changed to xxxx), unless the user has opted not to receive emails (see :ref:`accountdetails`):
+
+
+**“One of our users (xxxx@xxxx.com) has just shared one of their Gene lists with you. The list contains 26 items, and is called "Demo". Click on the link below to view this list in a browser:
+xxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+You cannot delete or modify this list directly, as it does not belong to you, although
+you may remove it from your account by using the 'delete' function on the lists tab.
+You are welcome to COPY this list to create your own version, which will remain in your
+possession even if the owner of "Demo" deletes or modifies the original.
+
+If you have any problems or questions, please don't hesitate to contact us. We can be reached
+by replying to this email or by using the links found at the bottom of each page on FlyMine.”**
+
+
+
+You can set information about how people share lists with you in your :ref:`mymine` account under the :ref:`accountdetails` tab.
+
+
+
+
+.. _listsupgrade:
+
+
+I am being told to upgrade my lists - what does this mean?
+-------------------------------------------------------------------------------
+
+
+Every time we make a new release of an InterMine database it is possible that some of the gene models will have changed.  This means that some of your identifiers may now be out of date.  For example, a gene may have been split, in which case an identifier may now refer to more than one gene.  Often a gene model is just updated and the old identifier becomes a synonym and the gene is assigned a new identifier.  When we make a new release, all the identifiers in your saved lists will be checked against the identifiers in the new database.  If any discrepancies are found (i.e if any have now become synonyms, or refer to more than one gene) then you will be asked what you want to do about these genes before you are able to use your list again.
+
+
+A message appears at the top of any page informing you that you have lists that need updating.  To update your lists you must be in your :ref:`mymine` account.  Within your lists page, the lists that need updating will be shown first.  The list upgrade system is the same as the  :ref:`listconfirmationpage` that you see when you upload a list.

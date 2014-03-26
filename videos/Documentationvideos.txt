@@ -1,0 +1,23 @@
+﻿Video Tutorials
+============
+
+
+
+
+.. _videooverview:
+
+
+1. General overview to the InterMine user interface
+
+
+<object id="scPlayer"  width="640" height="480" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" >
+<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" />
+<param name="quality" value="high" />
+<param name="bgcolor" value="#FFFFFF" />
+<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/LighteningOverview3.mp4.mp4&blurover=false" />
+<param name="allowFullScreen" value="true" />
+<param name="scale" value="showall" />
+<param name="allowScriptAccess" value="always" />
+<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/" />
+<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/embed" height="480" width="640" ></iframe>
+</object>

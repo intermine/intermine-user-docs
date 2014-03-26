@@ -1,0 +1,13 @@
+Cookbook of Examples: FlyMine
+===============================
+
+.. toctree::
+   :maxdepth: 2
+   
+  
+   geneontology/index
+   expression/index
+   pathways/index
+   regulatory/index
+   orthologues/index
+   interactions/index

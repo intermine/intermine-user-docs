@@ -1,0 +1,8 @@
+Regulatory data
+===============
+
+.. toctree::
+   :maxdepth: 3
+
+   cookbookregulatorydata.txt
+  

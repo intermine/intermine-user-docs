@@ -1,0 +1,8 @@
+MyMine
+============
+
+.. toctree::
+   :maxdepth: 2
+   
+  
+   Documentationmymine

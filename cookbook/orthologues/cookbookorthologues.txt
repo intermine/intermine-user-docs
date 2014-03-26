@@ -1,0 +1,90 @@
+﻿Orthologues
+==========
+
+
+
+
+Do(es) my gene(s) have orthologues in Human, mouse or rat?
+--------------------------------------------------------------------------------
+
+
+1.  Open the following template:
+
+
+`Gene → Orthologues <http://www.flymine.org/query/template.do?name=Gene_Orth&scope=all>`_
+
+
+2. Select the gene or gene list you wish to run the search on.
+
+
+3. Turn on the Organism Short Name constraint and select ONE OF and then select Human, Mouse and Rat (see image below).
+
+
+3.  Run the template.
+
+
+.. image:: ../../_images/orthologuetemplate.png
+
+
+
+
+Does my gene(s) have a human orthologue associated with a disease?
+-----------------------------------------------------------------------------------------------
+
+
+In FlyMine we load disease and associated human gene data from OMIM .  This data can be searched with orthologous fly genes using the following template:
+
+
+`Gene → Human disease gene and OMIM disease <http://www.flymine.org/query/template.do?name=Gene_disease&scope=all>`_
+
+
+
+
+You can also search genes associated with a specific disease.  Two template searches are available, one that just returns Human genes and one that returns the Human genes and their orthologues either in all organisms or a specified organism:
+
+
+1. Return just the human genes:
+
+
+`Disease → Human Gene <http://www.flymine.org/query/template.do?name=Disease_gene2&scope=all>`_
+
+
+2. Return the Human gene and orthologues:
+
+
+`Disease → Human Gene and Orthologues <http://www.flymine.org/query/template.do?name=Disease_gene_orthologue&scope=all>`_
+
+
+
+
+How do I export the sequences of an orthologous pair to galaxy to do an alignment?
+-----------------------------------------------------------------------------------------------------------------
+
+
+1. Run a template search to bring back the sequence of the gene and orthologous gene:
+
+
+`Gene → Orthologues + Sequence <http://www.flymine.org/query/template.do?name=Gene_Orth_seq&scope=all>`_
+
+
+2. Download the sequence to galaxy.  You need to do this in two steps - once for the gene sequence and then for the orthologue sequence (you can’t download two sequences at once to galaxy).  At this point, you need to ensure you have only one row of sequence as all rows will be downloaded.  This can be achieved by further filtering your results (see :ref:`filters`).  
+
+
+        
+* In the download box, select **FASTA sequence** from the format options.  
+* Selecting the fasta option, provides a **nodes** option, where you can select which            sequence column you are exporting.
+* Under the **output** option you can optionally extend the sequence
+* Under the **destination** option select **Send to galaxy for analysis**.  
+
+
+(see :ref:`galaxy` for more details).
+
+
+
+
+
+
+3.  In galaxy you will need to cat your two sequence files. You can use the **Concatenate datasets** program under **Text Manipulation** in the menu bar.
+
+
+4. You can then use the **ClustalW** program in galaxy (available under **Mulitple Alignments** in the menu bar) to align your sequences.

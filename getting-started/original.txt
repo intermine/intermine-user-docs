@@ -1,0 +1,20 @@
+Overview
+========
+
+InterMine has been in development for over 10 years, and during this time, based on user demand, we have introduced a large number of features. These range from faceted filtering options and enabling Boolean logic and set operations, to table sorting and filtering, a range of standardised export options, integration of other tools such as Cytoscape.
+
+
+The InterMine Advanced Search is an interface providing a suite of tools for analysis of your data.  The tools range from a simple quicksearch to more advanced analysis of lists of data and advanced data searches. 
+The key features include:
+
+ * Quick Search: type in any identifier, name, symbol or keyword to see what's in the database.
+ * Template Searches: 'canned' queries that provide a simple form to perform a specific task. You can create your own templates if you log in.
+ * QueryBuilder: lets you create custom queries and edit existing templates.
+ * Lists: let you operate on whole lists of data at once. You can upload lists or save them from results tables. We also create useful public lists for everyone to use.
+ * List Analysis:  Provides a number of pre-configured analysis tools for lists of items, such as GO term enrichment and gene expression graphs.
+ * MyMine lets you create an account to save your own queries, lists and templates, as well as marking public templates as favourites.
+
+All these features are accessible from the toolbar on every InterMine page:
+
+
+.. image:: ../getting-started/Tabs.tiff
