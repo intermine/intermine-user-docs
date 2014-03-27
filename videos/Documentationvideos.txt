@@ -27,7 +27,7 @@
 2. Results Tables
 -------------------------------------------------------------------------
 
-	1. An overview of the main features of the InterMine Results Tables.
+	1. An overview of the main features of the InterMine Results Tables:
 
 	.. raw:: html
 
@@ -43,7 +43,7 @@
 		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/embed" height="480" width="640" ></iframe>
 		</object> 
 
-	2. How to filter your results using the results tables
+	2. How to filter your results using the Results Tables:
 
 	.. raw:: html
 
@@ -59,7 +59,7 @@
 		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/embed" height="480" width="640" ></iframe>
 		</object>
 
-	3. Using the filter by vlaues in this column feature
+	3. Using the filter by values in this column feature:
 
 	.. raw:: html
 
@@ -78,7 +78,7 @@
 3. Template Searches
 -------------------------------------------------------------------------
 
-	How to use the template searches
+	How to use the template searches:
 
 	.. raw:: html
 
@@ -97,7 +97,7 @@
 4. Lists
 -------------------------------------------------------------------------
 
-	How to upload your own list
+	How to upload your own list:
 
 	.. raw:: html
 
