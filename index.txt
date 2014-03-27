@@ -26,12 +26,7 @@ Contents:
    contact/Documentationcontact.txt
    videos/index
 
-
-
-
-
-
-Indices and tables
+Indices and Tables
 ==================
 
 * :ref:`genindex`
