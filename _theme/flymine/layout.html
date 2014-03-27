@@ -4,6 +4,10 @@
 <!DOCTYPE html>
 {%- endblock -%}
 
+{% block rootrellink %}
+        <li><a href="{{ pathto('index') }}">InterMine User Guide</a>&raquo;</li>
+{% endblock %}
+
 {%- block extrahead -%}
 <!-- syntax highlighting -->
 <link href="{{ pathto("_static/pygments/radek.css", 1) }}" rel="stylesheet">

@@ -40,7 +40,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'InterMine User Documentation'
+project = u'InterMine User'
 copyright = u'2013, Rachel Lyne'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -99,7 +99,7 @@ html_theme = 'flymine'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+# html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["_theme"]
