@@ -18,7 +18,7 @@ Contents:
    lists/index
    templates/Documentationtemplatesearches.txt
    results-tables/Documentationresultstables.txt
-   query_builder/index
+   query-builder/index
    region_search/Documentationregionsearch
    mymine/DocumentationMyMine.txt
    data/Documentationdata.txt
