@@ -340,12 +340,12 @@ Download a set of results
 
 
 Results tables can be downloaded in various standard formats using the **Download** function. Here you can select the format and configure your table to download the parts that you require - columns can be added, removed or re-ordered and the rows can be selected. 
-By default, results will be downloaded ‘uncompressed’ and will include the column headers. However these options can be changed under the ‘Output’ sub-tab.  In addition, results are saved to a file by default. However, under the **Destination file** sub-tab you can save a URI, query xml or send your results to Galaxy, see  :ref:`galaxy`
+By default, results will be downloaded ‘uncompressed’ and will include the column headers. However these options can be changed under the ‘Output’ sub-tab.  In addition, results are saved to a file by default. However, under the **Destination file** sub-tab you can save a URI, query xml or send your results to Galaxy, see  :ref:`resultsgalaxy`
 
 
 
 
-.. _galaxy:
+.. _resultsgalaxy:
 
 
 Send results to galaxy

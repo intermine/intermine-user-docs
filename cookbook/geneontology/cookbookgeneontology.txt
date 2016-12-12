@@ -445,7 +445,7 @@ galaxy?
 * Under the **destination** option select **Send to galaxy for analysis**.  
 
 
-(see :ref:`galaxy` for more details).
+(see :ref:`resultsgalaxy` for more details).
 
 
 
