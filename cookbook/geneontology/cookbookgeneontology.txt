@@ -83,7 +83,7 @@ How do I analyse my gene list for GO term enrichment?
 --------------------------------------------------------------------------
 
 
-Go term enrichment is calculated automatically for all gene lists - you simply have to navigate to the :ref:`listanlaysispage` for your list.  The GO term enrichment for your list will be displayed as a widget (see :ref:`widgets`).  For more information on the enrichment calculation see the `InterMine documentation <http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/>`_.
+Go term enrichment is calculated automatically for all gene lists - you simply have to navigate to the :ref:`listanalysispage` for your list.  The GO term enrichment for your list will be displayed as a widget (see :ref:`widgets`).  For more information on the enrichment calculation see the `InterMine documentation <http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/>`_.
 
 
 
