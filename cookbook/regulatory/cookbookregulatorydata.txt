@@ -9,7 +9,7 @@ How do I find which transcription factors have been shown to regulate my gene(s)
 The following template will return all types of regulatory region that have been mapped for your gene:
 
 
-`Gene → Regulatory elements <  http://www.flymine.org/query/template.do?name=Gene_RegulatoryRegion&scope=all>`_
+`Gene → Regulatory elements <http://www.flymine.org/query/template.do?name=Gene_RegulatoryRegion&scope=all>`_
 
 
 For a specific type of regulatory region you can :ref:`filters`. The fifth column of the results (sequence ontology term.name) provides the type of regulatory region.
