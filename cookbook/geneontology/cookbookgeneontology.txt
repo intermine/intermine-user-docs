@@ -39,7 +39,7 @@ The easiest way to filter your results is using the filter functions in the resu
 
 
 
-.. image:: ../_images/filterGOterms.png
+.. image:: /_images/filterGOterms.png
 
 
 
@@ -61,7 +61,7 @@ Click on the column summary icon in the code column.  Select all evidence codes 
 
 
 
-.. image:: ../_images/filterEvidence.png
+.. image:: /_images/filterEvidence.png
 
 
 
@@ -74,7 +74,7 @@ Click on ‘Filters’ above the results table.  Scroll down to the GO Evidence 
 
 
 
-.. image:: ../_images/filterEvidence2.png
+.. image:: /_images/filterEvidence2.png
 
 
 
@@ -161,13 +161,13 @@ This is a three step process:
 For this you can use the template `Genes → Expression in a set of tissues <http://www.flymine.org/query/template.do?name=Gene_FlyAtlas_TissueList&scope=all>`_.  From the drop down list of tissues select all tissues except the one you want to find the tissue-specific genes.  The operator should be set to **ONE OF**:
 
 
-.. image:: ../_images/tissuespecific1.png
+.. image:: /_images/tissuespecific1.png
 
 
 Create a list of all the genes returned by your search (If you are unsure how to save a list of genes see :ref:`makealist`):  
 
 
-.. image:: ../_images/tissuespecific2.png
+.. image:: /_images/tissuespecific2.png
 
 
 
@@ -178,7 +178,7 @@ Create a list of all the genes returned by your search (If you are unsure how to
 You can use the same template as above - just change the tissue selection to the one you are interested in.  Again, save the set of genes returned by the search:
 
 
-.. image:: ../_images/tissuespecific3.png
+.. image:: /_images/tissuespecific3.png
 
 
 
@@ -189,7 +189,7 @@ You can use the same template as above - just change the tissue selection to the
 Now to find the genes that are expressed ONLY in the tissue you are interested in you need to subtract the first list created above from the second list.  To do this, navigate to the lists ‘view’ page.  The two lists you have just created should be at the top of the list of lists.  Select the two lists and then ‘Asymmetric Difference`  (Note that you need to use Asymmetric difference rather than subtract - the icons on this page illustrate the difference between these two operations).  The Asymmetric difference provides options to subtract the lists either way - you need to select the single tissue list minus the all but one list - enter a name for your new list.  The new list should appear at the top of the lists view page.  In this example, as we are using the FlyAtlas data, we can check that we have created a tissue-specific expression set by looking at the FlyAtlas widget on the :ref:`listanalysispage` for the list we have just created.  
 
 
-.. image:: ../_images/tissuespecific4.png
+.. image:: /_images/tissuespecific4.png
 
 
 
@@ -285,7 +285,7 @@ Each gene report page in FlyMine (and in other MOD-InterMines) includes a table 
 
 
 
-.. image:: ../_images/pathwayviewer.png
+.. image:: /_images/pathwayviewer.png
 
 
 
@@ -357,7 +357,7 @@ Other regulatory region searches
 FlyMine includes many other templates for searching regulatory data, including searching within a specified chromosomal region and searching within gene flanking regions.  To view all regulatory templates, go to the templates page and filter the list for **Regulation**:
 
 
-.. image:: ../_images/regulatoryTemplates.png
+.. image:: /_images/regulatorytemplates.png
 
 
 
@@ -389,7 +389,7 @@ Do(es) my gene(s) have orthologues in Human, mouse or rat?
 3.  Run the template.
 
 
-.. image:: ../_images/orthologuetemplate.png
+.. image:: /_images/orthologuetemplate.png
 
 
 
@@ -485,7 +485,7 @@ A. Using a template search
 All of the interaction template searches in FlyMine include an optional constraint to show either physical or genetic interactions.  Unless noted specifically, all interactions are shown by default:
 
 
-.. image:: ../_images/interactiontypetemplates.png
+.. image:: /_images/interactiontypetemplates.png
 
 
 
@@ -497,7 +497,7 @@ B. building your own query:
 The **Interactions** class references a **Details** class which has a **type** attribute (field).  This attribute holds the value **physical** or **genetic**.  If you are building your own query (see :ref:`querybuilder`), you can **constrain** this attribute to the required value:
 
 
-.. image:: ../_images/interactiontype.png
+.. image:: /_images/interactiontype.png
 
 
 
@@ -513,13 +513,13 @@ How do I find the experimental procedure that was used to predict the interactio
 The experimental procedure is stored in the **Interaction Detection Methods** under the attribute **Name**.  This attribute has already been added to the results of the interaction templates:
 
 
-.. image:: ../_images/interactiondetectionmethod3.png
+.. image:: /_images/interactiondetectionmethod3.png
 
 
 However, if you find one which has this attribute missing or you wish to add it to your own query, you can add it using the **manage columns** function on the results tables (see :ref:`resultsadddata`):
 
 
-.. image:: ../_images/interactiondetectionmethod2.png
+.. image:: /_images/interactiondetectionmethod2.png
 
 
 
@@ -527,7 +527,7 @@ However, if you find one which has this attribute missing or you wish to add it 
 OR, using the query builder:
 
 
-.. image:: ../_images/interactiondetectionmethod1.png
+.. image:: /_images/interactiondetectionmethod1.png
 
 
 
@@ -553,7 +553,7 @@ How do I view the interactions for my gene/protein?
 The gene :ref:`reportpages` include an interactions viewer.  This allows you to toggle between showing all interactions, physical or genetic interactions, export your interaction network or save the list of participating genes as a list.  You can also view the network in results table form, allowing further filtering and exploration (see :ref:`resultstables`).
 
 
-.. image:: ../_images/interactionviewer.png
+.. image:: /_images/interactionviewer.png
 
 
 
@@ -676,4 +676,4 @@ The above workflow is summarised in the following diagram:
 
 
 
-.. image:: ../_images/InteractionExpressionWorkflow.png
+.. image:: /_images/InteractionExpressionWorkflow.png
