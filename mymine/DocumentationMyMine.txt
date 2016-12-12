@@ -113,7 +113,7 @@ The account details tab allows you set various aspects of your account as follow
 **Your preferred email address:**  Set the email address you prefer to use for correspondence - for example if someone shares a list with you. This could be different to the email you use to login to your account.
 
 
-**The URL of your preferred Galaxy instance:**  Results can be exported to `Galaxy <http://galaxyproject.org/>`_  (see :ref:`galaxy`).  By default the main galaxy server is set, however if you routinely use another galaxy instance you can set this to be the default here.
+**The URL of your preferred Galaxy instance:**  Results can be exported to `Galaxy <http://galaxyproject.org/>`_  (see :ref:`resultsgalaxy`).  By default the main galaxy server is set, however if you routinely use another galaxy instance you can set this to be the default here.
 
 
 **API access key:**  
