@@ -28,7 +28,7 @@ Summary
 Each report page starts with a summary section providing key details of the object you are viewing, such as names, identifiers and function:
 
 
-.. image:: ../_images/reportpagesummary.png
+.. image:: ../_images/reportpageSummary.png
 
 
 Data displayers
