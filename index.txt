@@ -19,7 +19,7 @@ Contents:
    templates/Documentationtemplatesearches.txt
    results-tables/Documentationresultstables.txt
    query-builder/index
-   region_search/Documentationregionsearch
+   region-search/Documentationregionsearch
    mymine/DocumentationMyMine.txt
    data/Documentationdata.txt
    contact/Documentationcontact.txt
