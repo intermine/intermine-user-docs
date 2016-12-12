@@ -1,9 +1,0 @@
-Quick Search
-===========
-
-.. toctree::
-   :maxdepth: 2
-   
-  
-   Documentationquicksearch
-   videos
