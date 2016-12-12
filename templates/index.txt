@@ -1,8 +1,0 @@
-Template Searches
-==================
-
-.. toctree::
-   :maxdepth: 2
-   
-  
-   Documentationtemplatesearches
