@@ -48,4 +48,4 @@ Other regulatory region searches
 FlyMine includes many other templates for searching regulatory data, including searching within a specified chromosomal region and searching within gene flanking regions.  To view all regulatory templates, go to the templates page and filter the list for **Regulation**:
 
 
-.. image:: ../../_images/regulatoryTemplates.png
+.. image:: ../../_images/regulatorytemplates.png
