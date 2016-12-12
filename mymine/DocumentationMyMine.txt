@@ -12,7 +12,7 @@ What is MyMine?
 MyMine is your personal InterMine account where you can manage your lists, queries, templates etc, share your lists with other users and create favourite templates and lists.  You need to create a different account for each InterMine database you use.   You can access your MyMine account from the main tabs.  The MyMine tab then has a series of subtabs for managing lists, templates, queries and your account details etc:
 
 
-.. image:: ../_images/myminetab.png
+.. image:: ../_images/MyMinetab.tiff
 
 
 
