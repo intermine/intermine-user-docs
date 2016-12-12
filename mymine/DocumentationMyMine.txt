@@ -119,7 +119,7 @@ The account details tab allows you set various aspects of your account as follow
 **API access key:**  
 
 
-API keys are used to access the features of the `InterMine API https://intermine.readthedocs.org/en/latest/web-services/`_  without having to use your username or password.  
+API keys are used to access the features of the `InterMine API <https://intermine.readthedocs.org/en/latest/web-services/>`_  without having to use your username or password.  
 
 
 
