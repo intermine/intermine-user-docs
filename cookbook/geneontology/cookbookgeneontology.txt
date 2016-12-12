@@ -504,7 +504,8 @@ The **Interactions** class references a **Details** class which has a **type** a
 
 
 
-.. _interactionexperiment:
+.. _interactionexperimentgo:
+
 How do I find the experimental procedure that was used to predict the interactions?
 ---------------------------------------------------------------------------------------------------------------
 
@@ -535,7 +536,7 @@ I am only interested in high-confidence interactions, how do I find these?
 ------------------------------------------------------------------------------------------------
 
 
-Currently the only way to filter out high-throughput or lower confidence interactions is to filter on the experimental method - for example you may want to exclude all interactions from two-hybrid studies.  See :ref:`interactionexperiment` and :ref:`columnsummaries` and :ref:`filters`.
+Currently the only way to filter out high-throughput or lower confidence interactions is to filter on the experimental method - for example you may want to exclude all interactions from two-hybrid studies.  See :ref:`interactionexperimentgo` and :ref:`columnsummaries` and :ref:`filters`.
 
 
 Coming soon:  high-confidence interaction sets as assigned by `IntAct <http://www.ebi.ac.uk/intact/>`_.
