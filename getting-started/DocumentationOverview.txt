@@ -62,4 +62,4 @@ Alternatively you may start by :ref:`listupload` of genes.  Through the graphs a
 You may start by entering a gene identifier for a gene you have picked up in an experiment into the :ref:`quicksearch` box and browsing all the information for this gene on its :ref:`reportpages`.  From here you learn that this gene has orthologues in fish, mouse and rat.   You click the link for the mouse orthologue and this takes you to the report page for this orthologous gene in a related intermine, MouseMine, and so on.  
 
 
-A set of worked use-cases is available in the cookbook.
+A set of worked use-cases is available in the :doc:`cookbook </cookbook/index>`.
