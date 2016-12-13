@@ -24,10 +24,10 @@ The Region Search allows you to search for features that overlap a list of genom
 
 
 
-Note that you must also select the coordinate system of your regions.  Both **base coordinate** (e.g. BLAST, GFF/GFF3) and **interbase coordinate** (e.g. UCSC BED, Chado) systems are supported e.g. for a DNA piece **GCCATGTA**, the position of the **ATG** in interbase is [3, 6], and in base coordinates is [4, 6]. Users need to explicitly select one. By default, the base coordinate is selected.
+Note that you must also select the coordinate system of your regions.  Both **base coordinate** (e.g. BLAST, GFF/GFF3) and **interbase coordinate** (e.g. UCSC BED, Chado) systems are supported.  For example, for a DNA piece **GCCATGTA**, the position of the **ATG** in interbase is [3, 6], and in base coordinates it is [4, 6].  Users need to explicitly select which coordinate system they are using.  This is base coordinate by default.
 
 
-Each genomic region needs to take a new line.
+Each genomic region needs to be on a separate line.
 
 
 4. Finally, you can choose to extend your regions by a certain number of bases upstream and downstream.  Note that this currently extends your region in both directions by the amount specified.
