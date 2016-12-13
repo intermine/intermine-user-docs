@@ -30,8 +30,9 @@ Note that you must also select the coordinate system of your regions.  Both **ba
 Each genomic region needs to be on a separate line.
 
 
-4. Finally, you can choose to extend your regions by a certain number of bases upstream and downstream.  Note that this currently extends your region in both directions by the amount specified.
+4. Next, you can choose to extend your regions by a certain number of bases upstream and downstream.  Note that this currently extends your region in both directions by the amount specified.
 
+5. Finally, on some InterMine installations there will be a checkbox to restrict searches to a specific strand.  For example, Chr1:12345-23456 indicates a region on the + strand; Chr1:23456-12345 indicates a region on the - strand.  One situation in which this is useful is when you have a series of BLAST-generated regions on which you'd like to search for upstream gene flanking regions.  In this case, there is no point in matching with gene flanking regions on the opposite strand.  The default behaviour is to search both strands.
 
 
 
