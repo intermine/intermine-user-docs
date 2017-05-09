@@ -1,0 +1,28 @@
+Note that when using a "negative" search such as !=, it is important to understand the difference between a NULL value and an empty value.
+NUll means a vlaue that is unknown or not applicable.  Empty means known but not present.
+This has implications for the way you may construct a query.
+
+For Exampe:  If you try a query such as all genes where the gene name doesn't equal something (e.g. ACXE) it excludes all the null values from the results too. In such a case you probably want the query to return all genes where the name does not equal "ACXE" including those that do not have a description.
+
+Try this query in FlyMine:
+
+<query name="" model="genomic" view="Gene.name" longDescription="" sortOrder="Gene.name asc" constraintLogic="A and B">
+  <constraint path="Gene.organism.name" code="A" op="=" value="Drosophila melanogaster"/>
+  <constraint path="Gene.name" code="B" op="!=" value="ACXE"/>
+</query>
+
+
+It returns 7627 genes.  So fromt he total Fly genes it has not returned the one gene that has the name ACXE AND all the genes which are "NULL" for gene name.
+
+Now, we can add an additonal constraint:
+
+<query name="" model="genomic" view="Gene.name" longDescription="" sortOrder="Gene.name asc" constraintLogic="A and (C or B)">
+  <constraint path="Gene.organism.name" code="A" op="=" value="Drosophila melanogaster"/>
+  <constraint path="Gene.name" code="C" op="!=" value="ACXE"/>
+  <constraint path="Gene.name" code="B" op="IS NULL"/>
+</query>
+
+- note: change the constraint logic to C or B.
+
+
+We now get 18, 059 rows - all genes which do not have name ACXE and all genes which have a NULL name.
