@@ -201,7 +201,42 @@ If you are logged in you can save a query you have constructed permanently to yo
 .. image:: ../_images/querybuildersavexport.png
 
 
+The difference between NULL and NOT EQUALS
+-------------------------------------------
 
+Searching Null vs NOT EQUALS
+
+When using a "negative" search such as !=, it is important to understand the difference between a NULL value and an empty value.
+NUll means a value that is unknown or not applicable.  
+Empty means known but not present.
+This has implications for the way you may construct a query.
+
+For Exampe:  If you try a query such as "Give me all genes where the gene name doesn't equal something (e.g. ACXE)" 
+it excludes all the null values from the results too. In such a case you probably want the query to return all genes 
+where the name does not equal "ACXE" AND those that do not have a name.  For those that do not have a name the field is NULL (which is different to empty).
+
+For example, try this query in FlyMine:
+
+<query name="" model="genomic" view="Gene.name" longDescription="" sortOrder="Gene.name asc" constraintLogic="A and B">
+  <constraint path="Gene.organism.name" code="A" op="=" value="Drosophila melanogaster"/>
+  <constraint path="Gene.name" code="B" op="!=" value="ACXE"/>
+</query>
+
+It returns 7627 genes.  So from the total fly genes it has not returned the one gene that has the name ACXE AND 
+all the genes which are "NULL" for gene name.
+
+Now, if we add an additonal constraint:
+
+<query name="" model="genomic" view="Gene.name" longDescription="" sortOrder="Gene.name asc" constraintLogic="A and (C or B)">
+  <constraint path="Gene.organism.name" code="A" op="=" value="Drosophila melanogaster"/>
+  <constraint path="Gene.name" code="C" op="!=" value="ACXE"/>
+  <constraint path="Gene.name" code="B" op="IS NULL"/>
+</query>
+
+(NOTE: also change the constraint logic to C or B)
+
+
+We now get 18, 059 rows - this is all the genes which do not have name ACXE and all genes which have a NULL name.
 
 
 
