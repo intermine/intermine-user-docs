@@ -222,6 +222,9 @@ For example, try this query in FlyMine:
   <constraint path="Gene.name" code="B" op="!=" value="ACXE"/>
 </query>
 
+.. image:: ../_images/NameNotEquals.png
+
+
 It returns 7627 genes.  So from the total fly genes it has not returned the one gene that has the name ACXE AND 
 all the genes which are "NULL" for gene name.
 
@@ -235,9 +238,15 @@ Now, if we add an additonal constraint:
 
 (NOTE: also change the constraint logic to C or B)
 
+.. image:: ../_images/NameNotNull.png
+
+
 
 We now get 18, 059 rows - this is all the genes which do not have name ACXE and all genes which have a NULL name.
 
+Note:  To add the "NULL" constraint, select "Filter query results on this field having any value or not" and select the "Has no value" checkbox:
+
+.. image:: ../_images/AddNotNullConstraint.png
 
 
 Troubleshooting
