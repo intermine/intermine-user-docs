@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    getting-started/index
+   tutorial/index
    cookbook/index
    quick-search/Documentationquicksearch.txt
    report-pages/Documentationreportpages.txt
