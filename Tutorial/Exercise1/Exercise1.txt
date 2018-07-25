@@ -1,1 +1,51 @@
 
+.. _Exercise1: Faceted search
+
+
+
+.. _tabs:
+
+Exercise1: Faceted Search
+---------------------------
+
+Use HumanMine for this exercise
+
+1. Search for one or more of the following using the keyword search (result for PPARG only shown below):
+
+1. **PPARG**
+2. **rs10509540**
+3. ***insulin***
+
+2. Filter and create a list:
+
+1. **Search for *diabetes***
+2. **Filter for publications**
+3. **Make a list of the publications**
+
+
+Need a hint?  Take a look at :ref:`quicksearch`
+
+
+
+Exercise1 answers
+------------------
+
+**1. Serach for PPARG using the keyword search.**
+
+Human PPARG is the first gene result returned when HumanMine is searched for PPARG. Click on this gene to be taken to the report page.
+
+
+
+.. image:: ../../_images/exercise1.png
+
+
+
+**2. Filter and create a list:**
+
+.. image:: ../../_images/exercise1b.png
+
+
+**3. Use the checkbox in the header to select all the publications and make a list.**
+
+
+.. image:: ../../_images/exercise1c.png
