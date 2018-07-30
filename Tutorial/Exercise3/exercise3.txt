@@ -1,1 +1,30 @@
 
+.. _Exercise3: list_upload
+
+
+
+.. _tabs:
+
+Exercise3: List Upload
+---------------------------
+
+Use FlyMine for this exercise
+
+**1. Navigate to the lists tab and upload sub-tab.**
+**2. Select the example list (leave type and organism as the default values).**
+**3. Click “Create list”.** 
+**4. Examine and understand the list page, name and save your list.**
+
+Need a hint?  Take a look at :ref:`listupload`
+
+
+
+
+Exercise3:  Answers
+-------------------
+
+
+.. image:: ../../_images/exercise3.png
+
+.. image:: ../../_images/exercise3b.png
+
