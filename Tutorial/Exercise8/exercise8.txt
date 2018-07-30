@@ -1,1 +1,24 @@
 
+.. _Exercise8: analysis_workflows
+
+
+
+.. _tabs:
+
+Exercise8: Analysis workflows
+------------------------------
+
+Use HumanMine for this exercise
+
+**1. Identify the sets of genes you have created under the lists “view” tab.**
+
+**2. Use the list set operations available on this page to intersect the list of diabetes genes you created with the query builder with your previous set of genes (genes expressed in adipose tissue that interact with pparg) created in exercise 6.**
+
+
+
+
+Exercise8:  Answers
+-------------------
+
+
+.. image:: ../../_images/exercise8a.png
