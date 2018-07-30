@@ -1,1 +1,52 @@
 
+.. _Exercise7: query_builder
+
+
+
+.. _tabs:
+
+Exercise7: Query Builder
+-----------------------------
+
+Using HumanMine:  we will build a query to show Human genes and 
+associated OMIM diseases, and then add a further constraint to show genes associated with all types of Diabetes. 
+
+**1. Start your query from Gene.**
+
+**2. Constrain “Organism” to Homo Sapiens.**
+
+**3. Add the columns of data we want in our results:**
+
+    Gene:  Primary identifier and Symbol
+    Disease: name
+
+**4. Run this search - ‘Show results’.**
+
+**5. Return to the query (Use the “Trail” in the top left) and add a constraint to Disease name for “CONTAINS Diabetes”.**
+
+**6. Run the search and save the set of genes.**
+
+
+
+Need a hint?  Take a look at :ref:`querybuilder`
+
+
+
+
+
+Exercise7:  Answers
+-------------------
+
+
+.. image:: ../../_images/exercise7a.png
+
+**3. Add the columns of data we want in our results:**
+
+
+
+.. image:: ../../_images/exercise7b.png
+
+
+**5. Return to the query (Use the “Trail” in the top left) and add a constraint to Disease name for “CONTAINS Diabetes”.**
+
+.. image:: ../../_images/exercise7c.png
