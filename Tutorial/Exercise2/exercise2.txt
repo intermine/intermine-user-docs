@@ -1,1 +1,123 @@
 
+.. _Exercise2: exploring_a_gene
+
+
+
+.. _tabs:
+
+Exercise2: Exploring a gene
+---------------------------
+
+You are interested in the Human PPARG gene and want to know the following things about it:
+
+Use HumanMine for this exercise
+
+**1. On which chromosome is the PPARG gene located?**
+
+**2. Can I access the sequence for the PPARG gene?**
+
+**3. With which diseases is PPARG associated?**
+
+**4. In which tissues is PPARG most highly expressed?**
+
+**5. Does the PPARG protein have any know isoforms?**
+
+**6. Is there a PPARG orthologue in D. melanogaster?**
+
+**7. Does this orthologue interact with any other Genes/proteins? Identify the interaction type (genetic/physical)?**
+
+**8. For the interaction with CG3040, what was the original experiment and publication that determined this interaction?**
+
+
+Need a hint?  Take a look at :ref:`reportpages`
+
+
+
+
+Exercise2:  Answers
+-------------------
+
+**1. On which chromosome is the PPARG gene located?**
+**2. Can I access the sequence for the PPARG gene?**
+
+The first section on the gene report page provides information about the chromosome location of the gene along with identifiers and synonyms and a link to the FASTA DNA sequence
+
+
+.. image:: ../../_images/exercise2.png
+
+
+**3. With which diseases is PPARG associated?**
+
+
+In HumanMine a summary of data is provided at the top of the report page (note this feature is not available in all InterMine's).
+
+.. image:: ../../_images/exercise2.3a.png
+
+
+Further disease information is sometimes available from the “Curated comments from Uniprot”:
+
+.. image:: ../../_images/exercise2.3b.png
+
+
+**4. In which tissues is PPARG most highly expressed?**
+
+Data on tissue expression can be found from three sources:
+
+**A. Human gene expression atlas** of 5372 samples representing 369 different cell and tissue types, disease states and cell lines: from http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-62/
+
+
+.. image:: ../../_images/exercise2.4a.png
+
+
+
+**B. Human Protein Atlas:** http://www.proteinatlas.org/
+
+
+.. image:: ../../_images/exervise2.4b.png
+
+
+**C. Curated comments from Uniprot:**
+
+
+
+.. image:: ../../_images/exercise2.4c.png
+
+**5. Does the PPARG protein have any know isoforms?**
+
+
+a. Navigate to the proteins table using the quick links
+
+.. image:: ../../_images/exercise2.5a.png
+
+
+b. Select the PPARG_HUMAN protein (the canonical uniprot annotated protein) to be taken to the protein report page. Note: we can also see from this table that PPARG has two isoforms: PPARG_HUMAN2 and PPARG_HUMAN3
+
+
+c. Navigate to the Isoforms table on the protein report page. Note that this table links to a report page for each of the isoforms.
+
+.. image:: ../../_images/exercise2.5b.png
+
+
+**6. Is there a PPARG orthologue in D. melanogaster?**
+
+
+.. image:: ../../_images/exercise2.6.png
+
+
+**7. Does this orthologue interact with any other proteins?  Identify the interaction type (genetic/physical)?**
+
+
+Use the “Interactions” quick link to navigate to protein and genetic
+Interaction data.  Eip75B has a genetic interaction with genes 
+Nos, Ph-p, Smn, S6K, Kr, Rheb and Hr51 and physical interactions with CG3040, COX5B and Hr51. 
+
+
+
+.. image:: ../../_images/exercise2.7.png
+
+
+
+**8. For the interaction with CG3040, what was the original experiment and publication that determined this interaction?**
+
+
+.. image:: ../../_images/exercise2.8.png
