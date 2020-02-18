@@ -12,16 +12,16 @@
 
 .. raw:: html
 
-	<object id="scPlayer"  width="640" height="480" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" >
-	<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" />
+	<object id="scPlayer"  width="640" height="480" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" >
+	<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/scplayer.swf" />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#FFFFFF" />
-	<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/LighteningOverview3.mp4.mp4&blurover=false" />
+	<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/LighteningOverview3.mp4.mp4&blurover=false" />
 	<param name="allowFullScreen" value="true" />
 	<param name="scale" value="showall" />
 	<param name="allowScriptAccess" value="always" />
-	<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/" />
-	<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/embed" height="480" width="640" ></iframe>
+	<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/" />
+	<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/e8e3b7e6-b303-408d-bef3-f2cbb4ba722b/embed" height="480" width="640" ></iframe>
 	</object>
 
 2. Results Tables
@@ -31,48 +31,48 @@
 
 	.. raw:: html
 
-		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/scplayer.swf" >
-		<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/scplayer.swf" />
+		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/scplayer.swf" >
+		<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/scplayer.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#FFFFFF" />
-		<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/ResultsTablesOverview2.mp4.mp4&blurover=false" />
+		<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/ResultsTablesOverview2.mp4.mp4&blurover=false" />
 		<param name="allowFullScreen" value="true" />
 		<param name="scale" value="showall" />
 		<param name="allowScriptAccess" value="always" />
-		<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/" />
-		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/embed" height="480" width="640" ></iframe>
+		<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/" />
+		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/49366c50-55a4-4e61-a6cc-886ffbffc08b/embed" height="480" width="640" ></iframe>
 		</object> 
 
 	2. How to filter your results using the Results Tables:
 
 	.. raw:: html
 
-		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/scplayer.swf" >
-		<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/scplayer.swf" />
+		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/scplayer.swf" >
+		<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/scplayer.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#FFFFFF" />
-		<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/ManageFilters1.mp4.mp4&blurover=false" />
+		<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/ManageFilters1.mp4.mp4&blurover=false" />
 		<param name="allowFullScreen" value="true" />
 		<param name="scale" value="showall" />
 		<param name="allowScriptAccess" value="always" />
-		<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/" />
-		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/embed" height="480" width="640" ></iframe>
+		<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/" />
+		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/c95cdc58-d92c-4394-a6d9-be1ad923f258/embed" height="480" width="640" ></iframe>
 		</object>
 
 	3. Using the filter by values in this column feature:
 
 	.. raw:: html
 
-		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
-		<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
+		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
+		<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#FFFFFF" />
-		<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
+		<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
 		<param name="allowFullScreen" value="true" />
 		<param name="scale" value="showall" />
 		<param name="allowScriptAccess" value="always" />
-		<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
-		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
+		<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
+		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
 		</object>
 
 3. Template Searches
@@ -82,16 +82,16 @@
 
 	.. raw:: html
 
-		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
-		<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
+		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
+		<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#FFFFFF" />
-		<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
+		<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
 		<param name="allowFullScreen" value="true" />
 		<param name="scale" value="showall" />
 		<param name="allowScriptAccess" value="always" />
-		<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
-		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
+		<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
+		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
 		</object> 
 
 4. Lists
@@ -101,14 +101,14 @@
 
 	.. raw:: html
 
-		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
-		<param name="movie" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
+		<object id="scPlayer"  width="300" height="300" type="application/x-shockwave-flash" data="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" >
+		<param name="movie" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/scplayer.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#FFFFFF" />
-		<param name="flashVars" value="thumb=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
+		<param name="flashVars" value="thumb=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/FirstFrame.jpg&containerwidth=640&containerheight=480&xmp=sc.xmp&content=https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/TemplatesOverview.mp4.mp4&blurover=false" />
 		<param name="allowFullScreen" value="true" />
 		<param name="scale" value="showall" />
 		<param name="allowScriptAccess" value="always" />
-		<param name="base" value="http://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
-		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="http://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
+		<param name="base" value="https://content.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/" />
+		<iframe type="text/html" frameborder="0" scrolling="no" style="overflow:hidden;" src="https://www.screencast.com/users/InterMine/folders/InterMine/media/277fe169-8008-4990-8330-f422c65d31d9/embed" height="480" width="640" ></iframe>
 		</object> 
