@@ -224,7 +224,7 @@ How do I find which pathways my gene(s) is/are involved in?
 Use the following template search:
 
 
-`Gene → Pathway  <http://www.flymine.org/query/template.do?name=Gene_Pathway&scope=alll>`_
+`Gene → Pathway  <http://www.flymine.org/query/template.do?name=Gene_Pathway&scope=all>`_
 
 
 
