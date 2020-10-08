@@ -18,8 +18,9 @@ Building locally
 ----------------
 
 You should build locally before you push, to make sure your changes are correct.
-You will need the Sphinx environment for this. **Make** and **Python** are
-required, and we recommend using **virtualenv** to manage dependencies:
+You will need the Sphinx environment for this. **Make** and **Python** (only
+version 2 is supported) are required, and we recommend using **virtualenv**
+to manage dependencies:
 
 Setting up:
 
@@ -27,7 +28,7 @@ Setting up:
 cd docs
 virtualenv .
 source ./bin/activate
-pip install -r requirements.txt
+pip install 'sphinx==1.7.9'
 ```
 
 Building the docs:
