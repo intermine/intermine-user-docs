@@ -136,7 +136,7 @@ Note that this template is dependent on the interaction sets loaded into the Int
 
 
 
-Are my interacting genes/proteins are expressed in the same tissue/dev stage?
+Are my interacting genes/proteins expressed in the same tissue/dev stage?
 --------------------------------------------------------------------------------------------------------------------
 
 
