@@ -12,15 +12,15 @@ Use HumanMine for this exercise
 
 1. Search for one or more of the following using the keyword search (result for PPARG only shown below):
 
-1. **PPARG**
-2. **rs10509540**
-3. ***insulin***
+* **PPARG**
+* **rs10509540**
+* ***insulin***
 
 2. Filter and create a list:
 
-1. **Search for *diabetes***
-2. **Filter for publications**
-3. **Make a list of the publications**
+* **Search for *diabetes***
+* **Filter for publications**
+* **Make a list of the publications**
 
 
 Need a hint?  Take a look at :ref:`quicksearch`
@@ -37,15 +37,19 @@ Human PPARG is the first gene result returned when HumanMine is searched for PPA
 
 
 .. image:: ../../_images/exercise1.png
+  :alt: Search results for PPARG
 
 
 
 **2. Filter and create a list:**
 
 .. image:: ../../_images/exercise1b.png
+  :alt: Search results for diabetes
+
 
 
 **3. Use the checkbox in the header to select all the publications and make a list.**
 
 
 .. image:: ../../_images/exercise1c.png
+  :alt: Search result for publications category
