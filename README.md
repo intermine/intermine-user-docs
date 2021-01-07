@@ -30,6 +30,15 @@ virtualenv .
 source ./bin/activate
 pip install 'sphinx==1.7.9'
 ```
+For Windows users:
+
+```bash
+cd docs
+virtualenv .
+activate
+conda install sphinx
+```
+You can read the [Sphinx Documentation][docu] for other ways to download sphinx. Here **conda install sphinx** is used.
 
 Building the docs:
 
@@ -51,3 +60,4 @@ The source for the Sphinx documentation theme can be found in the
 [quickref]: http://docutils.sourceforge.net/docs/user/rst/quickref.html
 [sphinx]: http://sphinx-doc.org
 [theme]: https://github.com/intermine/design-materials/tree/master/websites/intermine.org/
+[docu]: https://www.sphinx-doc.org/en/master/usage/installation.html#install-pypi
