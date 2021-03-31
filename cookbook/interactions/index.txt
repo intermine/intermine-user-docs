@@ -1,8 +1,0 @@
-Interactions
-============
-
-.. toctree::
-   :maxdepth: 3
-
-   cookbookinteractions.txt
-  

@@ -1,53 +1,33 @@
-user-docs
-=========
+# Website
 
-Documentation for using an InterMine webapp.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-Documentation
--------------
+## Installation
 
-The HTML documentation is generated from [RST][rest] source, using a Python
-static site generator called [Sphinx][sphinx]. RST stands for
-**reStructuredText** (see [reference][quickref]).  When you push to the [GitHub
-repo][repo] for these docs, this triggers a new build of the [documentation
-site][docssite], where the changes will be visible within a few minutes.
-This process is managed by [ReadTheDocs][rtd], an online service for
-maintaining documentation.
-
-Building locally
-----------------
-
-You should build locally before you push, to make sure your changes are correct.
-You will need the Sphinx environment for this. **Make** and **Python** (only
-version 2 is supported) are required, and we recommend using **virtualenv**
-to manage dependencies:
-
-Setting up:
-
-```bash
-cd docs
-virtualenv .
-source ./bin/activate
-pip install 'sphinx==1.7.9'
+```console
+yarn install
 ```
 
-Building the docs:
+## Local Development
 
-```bash
-# In the docs directory
-make html
+```console
+yarn start
 ```
 
-Theming
--------
-The source for the Sphinx documentation theme can be found in the
-[intermine/design-materials][theme] repo.
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-[1]: https://github.com/intermine/design-materials/tree/master/websites/intermine.org/
-[repo]: https://github.com/intermine/intermine.org
-[rest]: http://sphinx-doc.org/rest.html
-[rtd]: https://readthedocs.org/
-[docssite]: https://intermine.readthedocs.org
-[quickref]: http://docutils.sourceforge.net/docs/user/rst/quickref.html
-[sphinx]: http://sphinx-doc.org
-[theme]: https://github.com/intermine/design-materials/tree/master/websites/intermine.org/
+## Build
+
+```console
+yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

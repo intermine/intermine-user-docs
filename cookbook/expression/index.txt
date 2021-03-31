@@ -1,8 +1,0 @@
-Expression Data
-================
-
-.. toctree::
-   :maxdepth: 3
-
-   cookbookexpressiondata.txt
-  

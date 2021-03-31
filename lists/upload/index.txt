@@ -1,7 +1,0 @@
-List Upload
-=============
-
-.. toctree::
-   :maxdepth: 3
-
-   Documentationlistupload

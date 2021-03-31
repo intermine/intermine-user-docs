@@ -1,9 +1,0 @@
-Lists
-=====
-
-.. toctree::
-   :maxdepth: 3
-   
-   overview/index.txt
-   upload/index.txt
-   analysis/index.txt

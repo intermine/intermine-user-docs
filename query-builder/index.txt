@@ -1,7 +1,0 @@
-Query builder
-=============
-
-.. toctree::
-   :maxdepth: 2
-   
-   Documentationquerybuilder

@@ -1,8 +1,0 @@
-Gene Ontology
-=============
-
-.. toctree::
-   :maxdepth: 3
-
-   cookbookgeneontology.txt
-  
