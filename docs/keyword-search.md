@@ -6,7 +6,7 @@ The BlueGenes' keyword search makes it fast and easy to find any keyword you nee
 
 ![Search bar in the top navigation bar](/img/search-mini-with-border.png)
 
-![Search bars in the homepage](/img/homepage-search (1).png)
+![Search bars in the homepage](</img/homepage-search (1).png>)
 
 Examples of what you can search for:
 
@@ -18,9 +18,9 @@ Examples of what you can search for:
 
 * **Boolean:** Boolean search syntax is supported using Boolean expressions \(e.g. gen\*\) for partial matches or \(e.g. gene AND NOT LOC644563\) to exclude a term
 
-{% hint style="warning" %}
+:::caution
 Remember only use “**all capital letters**” boolean expressions to conduct a Boolean search. 
-{% endhint %}
+:::
 
 ![Phrases search](/img/dna-binding.png)
 

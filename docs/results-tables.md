@@ -6,7 +6,7 @@ Running any search from the available [template searches ](template-search.md)or
 
 ### Understanding and navigating through the data
 
-The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward and forward arrow icons◀▶, or you can go straight to the last or the first pages using the skip icons![](/img/previous2.png)![](/img/next2.png) .  
+The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward and forward arrow icons ◀ ▶, or you can go straight to the last or the first pages using the skip icons <img className="inline-image" src="/img/previous2.png"/> <img className="inline-image" src="/img/next2.png"/>.
 
 ![](/img/navigate-data-1.png)
 
@@ -28,7 +28,7 @@ A summary of the data in each column of a results table can be accessed by click
 
 The type of summary shown depends on the type of data in the column - whether it is text or numerical data. For example, the results table below is showing pathways associated with the Pax6 targets list. Therefore, the summary for the pathway **Name** column shows how many genes are associated with the same pathway. 
 
-![](/img/pathway-names-2 (1).png)
+![](</img/pathway-names-2 (1).png>)
 
 Whereas the following column of numerical data - gene lengths - shows the minimum and maximum values, the mean, and the standard deviation of the data.
 
@@ -40,7 +40,7 @@ Results can also be filtered through the column summary depending on the type of
 
 To remove a filter, either click the **UNDO** button at the top of the table or the filter icon in the column header and remove it from there. 
 
-![](/img/remove-filters (1).png)
+![](</img/remove-filters (1).png>)
 
 **Column summary graph:**
 
@@ -54,7 +54,7 @@ Column summaries are useful for several reasons. The following are a few ideas f
 
 * For a list of genes, find how many have the same annotation, where annotation could be anything associated with your genes such as GO terms, pathways or diseases.
 
-You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the $$Gene → Pathways  $$template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column, you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes. 
+You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the `Gene → Pathways` template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column, you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes.
 
 ![](/img/column-summary-application-1-cut.png)
 
@@ -62,19 +62,19 @@ You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find ou
 
 Often a results table will have multiple rows with information about several genes. By looking just through the table, it will be difficult to know how many genes you have in your results. You can use the column summary to give you this information.
 
-For example, when you run the$$Gene → Pathways$$template search with the same public list - **PL\_Pax6\_Targets** - ****to determine which pathways the genes in the list are involved in, the results table gives 1,575 rows.  However, there are multiple genes associated with a single pathway, which means you do not know how many genes you have. When you click on the **column summary** for either the gene primary or secondary identifiers or the gene symbol, you can find the number of unique genes. As shown in the following screenshot, there are 153 genes. 
+For example, when you run the `Gene → Pathways` template search with the same public list - **PL\_Pax6\_Targets** - to determine which pathways the genes in the list are involved in, the results table gives 1,575 rows.  However, there are multiple genes associated with a single pathway, which means you do not know how many genes you have. When you click on the **column summary** for either the gene primary or secondary identifiers or the gene symbol, you can find the number of unique genes. As shown in the following screenshot, there are 153 genes.
 
 ![](/img/unique-genes.png)
 
-{% hint style="info" %}
+:::info
 Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#save-a-result-set-for-further-analysis) section for more details. 
-{% endhint %}
+:::
 
 Results by default are always returned with what we call an inner join. So, in the example above, if a gene in the list does not have associated pathway data then it will not appear in the results. This can be changed - see the [Query Builder - Outer joins](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSZ-rWrsFFJa1oY4hb_/content/user-documentation/the-query-builder#outer-joins) section for more details. 
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon![](/img/screenshot-902-.png)in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon. 
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon <img className="inline-image" src="/img/screenshot-902-.png"/> in the column header and the [Column summaries](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon.
 
 ![](/img/filters.png)
 
@@ -84,7 +84,7 @@ Results tables allow you to explore your results by applying filters to any of t
 2. Use the drop-down lists and input field to define your filter.
 3. Click on **Apply** button to re-draw the results table with your filter in place. 
 
-![](/img/adding-a-filter (1).png)
+![](</img/adding-a-filter (1).png>)
 
 You can also add, edit or remove filters using the **Manage Filters** button, which provides information on filters added to all columns in the results. 
 
@@ -92,11 +92,11 @@ You can also add, edit or remove filters using the **Manage Filters** button, wh
 
 ### **Returning to your original results**
 
-Filters can be removed by clicking on![](/img/screenshot-902-.png)icon and then click the delete icon![](/img/remove-filters-2-copy.png)shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to the original table state.
+Filters can be removed by clicking on <img className="inline-image" src="/img/screenshot-902-.png"/> icon and then click the delete icon <img className="inline-image" src="/img/remove-filters-2-copy.png"/> shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to the original table state.
 
-{% hint style="info" %}
-Note that the original state may still have filters applied. Original state refers to the original query run, not to a table with no filters applied. 
-{% endhint %}
+:::note
+The original state may still have filters applied. Original state refers to the original query run, not to a table with no filters applied.
+:::
 
 ![](/img/remove-filters-2.png)
 
@@ -109,9 +109,9 @@ Additional fields of data can be added to your results using the **Add Columns**
 3. Click on any field to add that data to your results.
 4. Click **Apply** to re-draw the results table.
 
-{% hint style="info" %}
+:::info
 If you do not know which field contains the data you require, try adding one or more columns and re-draw the table - it is easy to remove them again. Alternatively, you can [Contact Us](contact-us.md), and we are here to help.
-{% endhint %}
+:::
 
 ![](/img/adding-new-columns.png)
 
@@ -119,11 +119,11 @@ If you do not know which field contains the data you require, try adding one or 
 
 To remove any column from the list of columns shown in your results: 
 
-1. Click on the delete icon✖in the desired column's header.
+1. Click on the delete icon ✖ in the desired column's header.
 
-{% hint style="info" %}
+:::info
 To add the deleted column back, click the **Undo** button to revert to the previous state.
-{% endhint %}
+:::
 
 ![](/img/remove-columns.png)
 
@@ -131,11 +131,11 @@ To add the deleted column back, click the **Undo** button to revert to the previ
 
 There are two ways to change the sort order of the columns in your results tables. 
 
-* First, every column header has a sort icon which allows you to sort on a specific column in either direction $$a → z$$ or $$z → a$$ 
+* First, every column header has a sort icon which allows you to sort on a specific column in either direction `a → z` or `z → a`
 
 ![](/img/sorting-columns-2.png)
 
-* The second way to set the sort order is through the [**Query Builder**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) ****tab, where you can define the sort order of all columns in your table under the [**Manage Columns**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) sub-tab. 
+* The second way to set the sort order is through the [**Query Builder**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) tab, where you can define the sort order of all columns in your table under the [**Manage Columns**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#overview) sub-tab.
 
 ![](/img/sorting-cols.png)
 

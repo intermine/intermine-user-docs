@@ -4,11 +4,11 @@ title: Contact Us
 
 **We love hearing back from our users, so please feel free to get in touch!** 
 
-The InterMine core team is based in Cambridge, UK, with 8 ****am to 5 pm business hours during the week. 
+The InterMine core team is based in Cambridge, UK, with 8 am to 5 pm business hours during the week.
 
-{% hint style="info" %}
+:::info
 First, check out our [Frequently Asked Questions](questions-faqs.md) for the commonly asked questions and their answers.  
-{% endhint %}
+:::
 
 If you still can't find what you're looking for, you can contact us in several ways!
 
@@ -46,7 +46,7 @@ Downing St, CAMBRIDGE CB2 3EH, United Kingdom
 
 ### Visit Us 🇬🇧 
 
-Please contact us first, so we can get ready to have you! ****
+Please contact us first, so we can get ready to have you!
 
 {% embed url="https://map.cam.ac.uk/Department+of+Genetics" caption="Downing site - Department of Genetics" %}
 

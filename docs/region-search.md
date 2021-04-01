@@ -21,9 +21,9 @@ To conduct a regions search, you need to follow a few easy steps:
 
 ![Running a regions search with sample coordinates](/img/regions-search-0.png)
 
-{% hint style="info" %}
+:::info
 Like most genome portals, such as NCBI, bioinformatics software, such as BLAST, and annotation file formats like SAM and VCF, BlueGenes use the[ Base Coordinate System](http://bergmanlab.genetics.uga.edu/?s=coordinate), which represents a feature starting at the first nucleotide as position 1.  
-{% endhint %}
+:::
 
 ### Regions Search Results
 
@@ -39,9 +39,9 @@ The Data section provides more information about the selected feature using Resu
 
 ![](/img/regions-data-1.png)
 
-{% hint style="info" %}
+:::info
 Check the [Report Pages](report-pages.md) section to understand the results of a Regions Search better. 
-{% endhint %}
+:::
 
 ### Troubleshooting
 

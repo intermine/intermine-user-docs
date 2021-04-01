@@ -4,9 +4,9 @@ title: Gene Ontology Data
 
 ### How do I find the GO annotations for my set of genes?
 
-{% hint style="info" %}
+:::info
 This assumes that you have successfully uploaded or created your list of genes. If you require help with this, please see [Lists - Upload a list](lists/upload-a-list.md) section for more details. 
-{% endhint %}
+:::
 
 To find the GO term annotations for your genes, it's easier to start by finding a template search specifically for this purpose. 
 
@@ -52,13 +52,13 @@ Video (Example 3 - part 1) Place Holder
 * **Using the Code column filter icon**
 
 1. Click on the filter icon![](/img/screenshot-902-.png)in the Code column header. 
-2. Use the left drop-down menu to choose the$$!=$$option. 
+2. Use the left drop-down menu to choose the `!=` option.
 3. Use the right drop-down list to select the **IEA** code.
 4. Click **‘Apply’** to add the new filter. 
 
-{% hint style="info" %}
+:::info
 Using the **‘Not like’** or **‘None of’** options will yield the same results. 
-{% endhint %}
+:::
 
 ```text
 Video (Example 3 - part 2) Place Holder
@@ -69,12 +69,12 @@ Video (Example 3 - part 2) Place Holder
 1. Click on the **‘Manage Filters’** button above the results table. 
 2. Using the **‘Add a new filter’** drop-down menu, click the **GO Evidence Code** field. 
 3. Click the blue plus sign to add your new filter, which will show a new drop-down list on the left of the **GO Evidence Code** field.
-4. Choose the$$!=$$option 
+4. Choose the `!=` option
 5. Finally, click **‘Apply Changes’**. 
 
-{% hint style="info" %}
+:::info
 Using the **‘Not like’** or **‘None of’** options will yield the same results. 
-{% endhint %}
+:::
 
 ```text
 Video (Example 3 - part 3) Place Holder
@@ -90,7 +90,7 @@ HumanMine includes many other Gene Ontology related searches. To see the full ra
 
 For instance, you can find all genes in a specific organism associated with a particular Gene Ontology \(GO\) annotation using the [GO term → Genes](http://bluegenes-staging.apps.intermine.org/humanmine/templates/GOterm_Gene) template. Various combinations of GO term and data searching are available; for example, [Gene + GO term → Genes by GO term](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_particularGoannotation) for a Gene or list of genes with GO annotation returns a subset of genes with that particular GO annotation. 
 
-{% hint style="info" %}
+:::info
 If you can't find what you are looking for, please [Contact Us](contact-us.md), and we can construct the template for you.
-{% endhint %}
+:::
 

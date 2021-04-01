@@ -23,3 +23,29 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+/* Ensure images inline with text aren't too large. */
+article h1 img,
+article h2 img,
+article h3 img,
+article h4 img,
+article .admonition img,
+article li img,
+/* There is no way to distinguish between an image used within a paragraph, and
+ * one used outside. This is because images outside paragraphs are always
+ * wrapped in a paragraph element to add margins. The workaround is to use
+ * `<img className="inline-image" src="/img/screenshot-902-.png"/>` instead of
+ * `![](/img/screenshot-902-.png)`, which is targetted by the class below. */
+.inline-image {
+  height: 1em;
+  margin: 0 0.25em;
+}
+
+/* Make it obvious when the tab container ends. */
+article .tabs-container {
+  border-bottom: 3px solid transparent;
+  border-bottom-color: var(--ifm-tabs-color-active);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 2em;
+}

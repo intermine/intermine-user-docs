@@ -10,9 +10,9 @@ You can use this guide to:
 * Take a closer look at the key sections of the homepage.
 * Understand the basics of using InterMine and its main sections 
 
-{% hint style="info" %}
+:::info
 This concise overview is geared mainly for new users. For more information about a particular topic, view its relevant section in the documentation. 
-{% endhint %}
+:::
 
 ### The Basics
 
@@ -23,25 +23,25 @@ Intermine allows you to work with **single items \(objects\)** and **multiple it
 * **Object:** A single item in the database. This can be anything, a gene, protein or binding site.
 * **List:** Multiple items of the same type. For example, a list of genes or a list of proteins.
 
-{% hint style="info" %}
+:::info
 This user guide demonstrates the workflow in all sections using HumanMine as a reference.
-{% endhint %}
+:::
 
 ### Homepage
 
 Below is a quick description of different sections and their associated functionalities of the BlueGenes homepage: 
 
-![The BlueGenes UI Homepage](/img/homepage (2).png)
+![The BlueGenes UI Homepage](</img/homepage (2).png>)
 
-* \*\*\*\*[**Home**](http://bluegenes.apps.intermine.org/humanmine): the homepage of the interface offers a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.
-* \*\*\*\*[**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file. 
-* \*\*\*\*[**Lists**](lists/): a list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. 
-* \*\*\*\*[**Templates**](template-search.md): a pre-defined query that provides a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.
-* \*\*\*\*[**Regions**](region-search.md): a tool for looking at genomic regions and the features they contain, allowing you to upload a set of regions and search for features mapped to these regions.
-* \*\*\*\*[**Query Builder**](the-query-builder.md): an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
-* \*\*\*\*[**Keyword Search**](keyword-search.md): a search box appears on the menu bar of all pages and the home page. You can search for any identifier, name, symbol or keyword.
-* \*\*\*\*[**HumanMine**](http://bluegenes.apps.intermine.org/humanmine): an integrated database of Homo sapiens genomic data. You can change HumanMine to a different InterMine instance. Check this [registry](http://registry.intermine.org/) for available instances.   
-* \*\*\*\*[**Account**](account.md): your personal InterMine account where you can manage your lists, queries, templates, etc.  
+* [**Home**](http://bluegenes.apps.intermine.org/humanmine): the homepage of the interface offers a search feature for any term, access to popular queries, documentation, the InterMine blog, external tools, and more.
+* [**Upload**](lists/upload-a-list.md): to upload a new list as a free text or from an existing file.
+* [**Lists**](lists/): a list in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites.
+* [**Templates**](template-search.md): a pre-defined query that provides a simple form with one or more variables for you to define; defaults are always provided so you can see exactly how the template works.
+* [**Regions**](region-search.md): a tool for looking at genomic regions and the features they contain, allowing you to upload a set of regions and search for features mapped to these regions.
+* [**Query Builder**](the-query-builder.md): an advanced query building tool - you can use this to construct your own searches. You can even turn them into your own template searches.
+* [**Keyword Search**](keyword-search.md): a search box appears on the menu bar of all pages and the home page. You can search for any identifier, name, symbol or keyword.
+* [**HumanMine**](http://bluegenes.apps.intermine.org/humanmine): an integrated database of Homo sapiens genomic data. You can change HumanMine to a different InterMine instance. Check this [registry](http://registry.intermine.org/) for available instances.
+* [**Account**](account.md): your personal InterMine account where you can manage your lists, queries, templates, etc.
 
 ### InterMine search tools
 

@@ -12,13 +12,13 @@ A template search has a simple form with one or more entry fields. You can fill 
 
 ### Finding the template search that you want
 
-There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find a template of interest, you can filter the templates list by keyword/description or data category. ****
+There is a long list of pre-defined searches, and checking all available templates can be time-consuming. To find a template of interest, you can filter the templates list by keyword/description or data category.
 
-![Filtering templates](/img/template-filtering (2).png)
+![Filtering templates](</img/template-filtering (2).png>)
 
 If you are unsure which category to use as a filter, category tags are shown at the bottom right corner of each template preview. 
 
-![Category tags](/img/category-tags (2).png)
+![Category tags](</img/category-tags (2).png>)
 
 ### Running a template search
 
@@ -26,7 +26,7 @@ A template search provides you with a fillable form with one or more fields to s
 
 ![](/img/view-templates.png)
 
-![](/img/run-template (2).png)
+![](</img/run-template (2).png>)
 
 The “Lookup” means that you can use any sort of gene identifier or symbol. Genes usually have at least one identifier \(often more than one\) and an official symbol \(e.g. the human PPARG gene also has the identifiers 5468 and ENSG0000013217\). The lookup constraint means you do not have to specify whether you are providing a symbol or an identifier - you can give any of these.
 
@@ -42,15 +42,15 @@ You can run a template search with a more complex set of constraints - i.e. opti
 
 First, remember to **log in** to your account to view and use your saved lists. Every template can be run on relevant lists of objects by selecting the **In list** option. When you run a template on a given list, you are technically searching the database for information related to every item in that list. 
 
-![](/img/in-list (2).png)
+![](</img/in-list (2).png>)
 
 If you have a private list of the correct type \(e.g. a list of genes\) or a public one that matches your needs exists, you can select your preferred list from the shown drop-down menu. 
 
-![](/img/in-list-2 (1).png)
+![](</img/in-list-2 (1).png>)
 
 There is also a “**Not in list**” option that you can use to exclude items \(e.g. genes\) from your search. This will search the database for all items except those in the list specified. 
 
-![](/img/not-in-list (1).png)
+![](</img/not-in-list (1).png>)
 
 ### Understanding your results
 
@@ -60,7 +60,7 @@ Template searches return results in a tabular format. Besides displaying query r
 
 Sometimes you may find that a template does not return everything you want in the results. Templates are a good starting point for building more complex searches. You can modify a template using [The Query Builder](the-query-builder.md) - click on **Edit Query** at the bottom of the **Results Preview** window to view the selected template in the query builder window. 
 
-![](/img/edit-query-1 (2).png)
+![](</img/edit-query-1 (2).png>)
 
 ![](/img/template-editing.png)
 

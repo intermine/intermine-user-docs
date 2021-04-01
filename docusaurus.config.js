@@ -12,6 +12,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'InterMine User Documentation',
+      hideOnScroll: true,
       logo: {
         alt: 'InterMine Logo',
         src: 'img/logo.svg',

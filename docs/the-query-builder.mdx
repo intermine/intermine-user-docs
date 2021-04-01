@@ -2,6 +2,9 @@
 title: The Query Builder
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 The Query Builder is InterMine’s custom query building interface,  allowing you to create and save your own searches. Users usually use this flexible interface to construct their own data mining queries. The Query Builder lets you view the data model, apply constraints, and select your preferred output. To access the query builder, click on the **Query Builder** tab in the top navigation bar. 
 
 ![](/img/query-tab.png)
@@ -13,108 +16,128 @@ The query builder page is divided into several sections, as follows:
 * **The Model Browser**
 * **The Data Browser**
 
-{% tabs %}
-{% tab title="Model Browser" %}
-The **Model browser** helps you find and add your data of interest.
+<Tabs
+  defaultValue="model_browser"
+  values={[
+    {label: 'Model Browser', value: 'model_browser'},
+    {label: 'Data Browser', value: 'data_browser'},
+  ]}>
+  <TabItem value="model_browser">
+<p>The <strong>Model browser</strong> helps you find and add your data of interest.</p>
 
-![](/img/data-model-edited (1).png)
+<p>
+  <img src="/img/data-model-edited (1).png"/>
+</p>
 
-1. The class field to browse through available classes. For example, the screenshot shows the **Gene** class with its associated attributes, such as **Length**, **Name**, **Primary Identifier**, etc. 
-2. You can click the **Browse** button to be directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the **Model browser** with that class selected in the class field. 
-3. You have some controls to manage the selected class's data. You can use **Summary** to summerise the selected class by adding its common attributes, **Expand** to expand the **Model browser tree** showing all selected attributes, **Collapse** to fold the **Model browser tree** to the top level and **Clear** to remove all selected attributes. 
-4. Use **checkboxes to** add individual fields - attributes - to your results. 
-5.  Expand more fields underneath any class using the➕sign. 
-6. Click **Summary** to add a summary of common fields to the results table.  
-{% endtab %}
+<ol>
+  <li>The class field to browse through available classes. For example, the screenshot shows the <strong>Gene</strong> class with its associated attributes, such as <strong>Length</strong>, <strong>Name</strong>, <strong>Primary Identifier</strong>, etc.</li>
+  <li>You can click the <strong>Browse</strong> button to be directed to the <strong>Data browser tree</strong> to browse all class names. Clicking on any class name will take you back to the <strong>Model browser</strong> with that class selected in the class field.</li>
+  <li>You have some controls to manage the selected class's data. You can use <strong>Summary</strong> to summerise the selected class by adding its common attributes, <strong>Expand</strong> to expand the <strong>Model browser tree</strong> showing all selected attributes, <strong>Collapse</strong> to fold the <strong>Model browser tree</strong> to the top level and <strong>Clear</strong> to remove all selected attributes.</li>
+  <li>Use <strong>checkboxes to</strong> add individual fields - attributes - to your results.</li>
+  <li>Expand more fields underneath any class using the ➕ sign.</li>
+  <li>Click <strong>Summary</strong> to add a summary of common fields to the results table.</li>
+</ol>
+  </TabItem>
+  <TabItem value="data_browser">
+<p>When you click the <strong>Browse</strong> button in the <strong>Model browser</strong>, you are directed to the <strong>Data browser tree</strong> to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the <strong>Back To Model</strong> button.</p>
 
-{% tab title="Data Browser" %}
-* When you click the **Browse** button in the **Model browser**, you are directed to the **Data browser tree** to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the **Back To Model** button.  ****
-
-![](/img/data-tree.png)
-{% endtab %}
-{% endtabs %}
+<p>
+  <img src="/img/data-tree.png"/>
+</p>
+  </TabItem>
+</Tabs>
 
 * **The Query Editor tab**
 * **The Manage Columns tab**
 
-{% tabs %}
-{% tab title="Query Editor" %}
-* The **Query Editor** tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes. 
+<Tabs
+  defaultValue="query_editor"
+  values={[
+    {label: 'Query Editor', value: 'query_editor'},
+    {label: 'Manage Columns', value: 'manage_columns'},
+  ]}>
+  <TabItem value="query_editor">
+<p>The <strong>Query Editor</strong> tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes.</p>
 
-![](/img/editor-window (1).png)
-{% endtab %}
+<p><img src="/img/editor-window (1).png"/></p>
+  </TabItem>
+  <TabItem value="manage_columns">
+<p>The <strong>Manage Columns</strong> tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order.</p>
 
-{% tab title="Manage Columns" %}
-* The **Manage Columns** tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order. 
-
-![](/img/manage-cols (1).png)
-{% endtab %}
-{% endtabs %}
+<p><img src="/img/manage-cols (1).png"/></p>
+  </TabItem>
+</Tabs>
 
 * **The Preview tab**
 * **The XML tab**
 
-{% tabs %}
-{% tab title="Preview" %}
-* The **Preview** tab lets you view how the results of the query under construction will look like. 
+<Tabs
+  defaultValue="preview"
+  values={[
+    {label: 'Preview', value: 'preview'},
+    {label: 'XML', value: 'xml'},
+  ]}>
+  <TabItem value="preview">
+<p>The <strong>Preview</strong> tab lets you view how the results of the query under construction will look like.</p>
 
-![](/img/preview-2.png)
-{% endtab %}
+<p><img src="/img/preview-2.png"/></p>
+  </TabItem>
+  <TabItem value="xml">
+<p>The <strong>XML</strong> tab lets you view and copy queries in XML format to share them with others or save them for later.</p>
 
-{% tab title="XML" %}
-* The **XML** tab lets you view and copy queries in XML format to share them with others or save them for later. 
-
-![](/img/xml.png)
-{% endtab %}
-{% endtabs %}
+<p><img src="/img/xml.png"/></p>
+  </TabItem>
+</Tabs>
 
 * **The Recent Queries tab**
 * **The Saved Queries tab**
 * **The Import from XML tab**
 
-{% tabs %}
-{% tab title="Recent Queries" %}
-* The **Recent Queries** tab displays recent queries you run. 
+<Tabs
+  defaultValue="recent_queries"
+  values={[
+    {label: 'Recent Queries', value: 'recent_queries'},
+    {label: 'Saved Queries', value: 'saved_queries'},
+    {label: 'Import from XML', value: 'import_from_xml'},
+  ]}>
+  <TabItem value="recent_queries">
+<p>The <strong>Recent Queries</strong> tab displays recent queries you run.</p>
 
-![](/img/recent.png)
-{% endtab %}
+<p><img src="/img/recent.png"/></p>
+  </TabItem>
+  <TabItem value="saved_queries">
+<p>When you successfully save a query, a confirmation message will be shown, and you can view saved queries under the <strong>Saved Queries</strong> tab.</p>
 
-{% tab title="Saved Queries" %}
-* When you successfully save a query, a confirmation message will be shown, and you can view saved queries under the **Saved Queries** tab. 
+<p><img src="/img/save-query-message.png"/></p>
 
-![](/img/save-query-message.png)
+<p>To the right of each saved query, there are three actions associated with each saved query - <strong>Load</strong>, <strong>Rename</strong> and <strong>Delete</strong>. For example, you can use the <strong>Load</strong> action to load a query in the <strong>Query Editor</strong> tab.</p>
 
-* To the right of each saved query, there are three actions associated with each saved query - **Load**, **Rename** and **Delete**. For example, you can use the **Load** action to load a query in the **Query Editor** tab.
+<p><img src="/img/saved-queries.png"/></p>
 
-![](/img/saved-queries.png)
+<p>You can change the name of any saved query using the <strong>Rename</strong> option.</p>
 
-* You can change the name of any saved query using the **Rename** option. 
+<p><img src="/img/rename-a-query.png"/></p>
 
-![](/img/rename-a-query.png)
+<p>You can remove a query through the <strong>Delete</strong> action. The deleted query can be restored through the link in the confirmation message shown in the following screenshot.</p>
 
-* You can remove a query through the **Delete** action. The deleted query can be restored through the link in the confirmation message shown in the following screenshot.  
+<p><img src="/img/delete-a-query.png"/></p>
 
-![](/img/delete-a-query.png)
+<div class="admonition admonition-danger alert alert--danger"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</h5></div><div class="admonition-content"><p>Deleting a saved query cannot be undone once the confirmation message is no longer active.</p></div></div>
+  </TabItem>
+  <TabItem value="import_from_xml">
+<p>You can also import a query by pasting the query XML in the input field and click <strong>Load Query</strong> under the <strong>Import from XML</strong> tab.</p>
 
-{% hint style="danger" %}
-Deleting a saved query cannot be undone once the confirmation message is no longer active. 
-{% endhint %}
-{% endtab %}
-
-{% tab title="Import from XML" %}
-* You can also import a query by pasting the query XML in the input field and click **Load Query** under the **Import from XML** tab. 
-
-![](/img/import-xml-query.png)
-{% endtab %}
-{% endtabs %}
+<p><img src="/img/import-xml-query.png"/></p>
+  </TabItem>
+</Tabs>
 
 ### Constructing queries
 
 To build a query, you must first decide on a starting point - class - to start your query.
 
-{% hint style="info" %}
+:::info
 The query starting point defaults to **Gene** and can be changed with the **Model Browser's** dropdown list. 
-{% endhint %}
+:::
 
 There are three steps to construct a query, which you can repeat for any additional data required:
 
@@ -122,7 +145,7 @@ There are three steps to construct a query, which you can repeat for any additio
 2. Add the appropriate constraints - or filters - to the selected class/attribute.
 3. Decide on the columns you want to view in your results.
 
- These steps are explained in more details below. 
+These steps are explained in more details below.
 
 ### Navigate the Model Browser
 
@@ -152,7 +175,7 @@ Adding one constraint to lookup the **PPARG** gene in the previous query limits 
 
 Constraints are also shown at the bottom of the query's XML format as follows:
 
-```text
+```xml
 <query model="genomic" view="Gene.symbol 
        Gene.primaryIdentifier Gene.name 
        Gene.secondaryIdentifier 
@@ -163,9 +186,9 @@ Constraints are also shown at the bottom of the query's XML format as follows:
 </query>
 ```
 
-{% hint style="info" %}
+:::info
 Constraints are assigned capital letters as their labels; so, your first added constraint will be called A, the second will be called B, and so on.
-{% endhint %}
+:::
 
 Most InterMine instances contain gene data from more than one organism, even if their data focus is a specific organism. For example, HumanMine has gene data for human, mouse and rats. Therefore, when constructing a query from scratch, it often makes sense to add an organism constraint. For instance, we can add an extra constraint to the previous example to limit the data to the **Homo Sapiens** organism only, as shown in the following screenshot. 
 
@@ -173,13 +196,13 @@ Most InterMine instances contain gene data from more than one organism, even if 
 
 ### Choose the data you want in your results.
 
-Every attribute has a **checkbox** on the left that you can tick✅to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and its common attributes using the **Summary** button. You can then add the **Diseases** class and its name attribute using the checkbox shown in the screenshot below. 
+Every attribute has a **checkbox** on the left that you can tick ✅ to add that attribute to your query output. All selected attributes will become columns in your results table when you run your search. For example, if you want to return all genes involved in diabetes, you would first select the **Gene** and its common attributes using the **Summary** button. You can then add the **Diseases** class and its name attribute using the checkbox shown in the screenshot below.
 
 ![](/img/checkboxes.png)
 
-{% hint style="info" %}
+:::info
 Columns are shown - and can be removed - under the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. 
-{% endhint %}
+:::
 
 ### Run your search
 
@@ -204,12 +227,12 @@ The default constraint is always **1,** or **inner join**, which means that only
 
 ![](/img/inner-join.png)
 
-![](/img/outer-join (1).png)
+![](</img/outer-join (1).png>)
 
-{% hint style="info" %}
+:::info
 * Note that the column summary and filtering still applies to the results table as a whole. 
 * The outer join constraint represents a [full outer join](https://en.wikipedia.org/wiki/Join_(SQL)) in database systems.  
-{% endhint %}
+:::
 
 ### Loop queries
 
@@ -217,13 +240,13 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. The constraint logic accepts: **AND**, **OR**, ****and **NOT** logic and can be edited using the✏icon as shown in the next screenshot: 
+You can set the constraint logic for your query under the [**Query Editor**](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/content/user-documentation/the-query-builder#the-query-builder-sections) tab. The constraint logic accepts: **AND**, **OR**, and **NOT** logic and can be edited using the✏icon as shown in the next screenshot:
 
 ![](/img/constraint-logic.png)
 
-{% hint style="info" %}
+:::info
 By default, constraint logic is set to AND 
-{% endhint %}
+:::
 
 ### Sorting
 
@@ -239,19 +262,19 @@ You can also save a query under the **Manage Columns** tab.
 
 ![](/img/save-2.png)
 
-![](/img/save-query-message (1).png)
+![](</img/save-query-message (1).png>)
 
-Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) ****and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the[ Overview - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSYkZresZ229V1rlQ7V/content/user-documentation/the-query-builder#overview) ****tab for more information on saving and exporting queries. 
+Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us.md) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the[ Overview - Query Editor](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MSYkZresZ229V1rlQ7V/content/user-documentation/the-query-builder#overview) tab for more information on saving and exporting queries.
 
 ### Including NULL or NO VALUE in your search results
 
-When using a “negative” search such as$$!=$$, it is important to - also -  consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the$$!=$$constraint, the search will not consider fields with a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, it will have **NO VALUE** in the symbol field. The$$!=$$constraint will include all genes that satisfy the search condition while excluding genes that do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**. 
+When using a “negative” search such as `!=`, it is important to - also -  consider **NULL** values. **NULL** means a value is either unknown or not applicable. When using the `!=` constraint, the search will not consider fields with a **NULL** or **NO VALUE**. For instance, the Gene class has a symbol field. In most cases, this field is populated with the gene symbol; however, if a particular gene does not have a symbol, it will have **NO VALUE** in the symbol field. The `!=` constraint will include all genes that satisfy the search condition while excluding genes that do not match the search term, including genes without a symbol. However, if you are trying to exclude a defined gene or set of genes, you probably also want to include genes where the gene symbol **IS NULL**.
 
-* For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g. $$!=$$ BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
+* For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g.  `!=` BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
 
 You can try this query in HumanMine by pasting the query's XML under the [XML](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MShHhOJ-sA3leT4UY29/content/user-documentation/the-query-builder#overview) tab: 
 
-```text
+```xml
 <query model="genomic" view="Gene.symbol 
        Gene.name Gene.primaryIdentifier 
        Gene.secondaryIdentifier 
@@ -270,7 +293,7 @@ The query returns 59222 rows. So the results didn't return the one gene with a g
 
 Let's update the previous query and add an additional constraint as follows: 
 
-```text
+```xml
 <query model="genomic" view="Gene.symbol 
 Gene.name Gene.primaryIdentifier 
 Gene.secondaryIdentifier 
@@ -287,17 +310,17 @@ constraintLogic="((A or C) and B)" sortOrder="">
 
 ![](/img/null-names.png)
 
-{% hint style="info" %}
+:::info
 Remember to change the constraint logic to \(A or C\) and B.
-{% endhint %}
+:::
 
 We now get 78679 rows - this result includes all genes where the gene name is not BHV4, including genes with a NULL or No Value in the name field.
 
 ![](/img/null-values.png)
 
-{% hint style="info" %}
+:::info
 To add the **NULL** constraint, use the filter![](/img/screenshot-902-.png)icon to add a new constraint and select the **NULL** from the drop-down menu. 
-{% endhint %}
+:::
 
 ![](/img/selecting-null.png)
 

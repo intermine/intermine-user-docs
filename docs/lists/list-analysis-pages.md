@@ -6,9 +6,9 @@ title: List analysis
 
 Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particular list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists available in the database, click on the [Lists](lists.md) tab. Clicking on a list name will display its associated analysis page. 
 
-{% hint style="info" %}
+:::info
 Remember, you must be logged in to your account to view your private lists!
-{% endhint %}
+:::
 
 ![](/img/lists-analysis-edited.png)
 
@@ -20,9 +20,9 @@ The list summary provides the main identifiers for the objects in your list. For
 
 ![](/img/go-term.png)
 
-{% hint style="info" %}
+:::info
 You can expand any enrichment widget or view the Go-term visualizer by clicking on the➕icon.  
-{% endhint %}
+:::
 
 ### What does enrichment mean and how are the p-values calculated?
 
@@ -32,7 +32,7 @@ You can expand any enrichment widget or view the Go-term visualizer by clicking 
 * The count is the number of times that term appears for objects in your list. 
 * The p-value is the probability that result occurs by chance; thus, a lower p-value indicates greater enrichment. It is calculated using the hypergeometric distribution, which is described further in the [InterMine documentation](http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/). 
 
-![](/img/enrichment-p-and-text (1).png)
+![](</img/enrichment-p-and-text (1).png>)
 
 The InterMine enrichment widgets also provide three methods for test correction - **Bonferroni, Holm-Bonferroni and Benjamini Hochberg**. These are also described further in the [InterMine documentation](http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/). 
 

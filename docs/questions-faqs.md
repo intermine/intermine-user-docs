@@ -4,9 +4,9 @@ title: Frequently Asked Questions
 
 Welcome to our Frequently Asked Questions \(FAQs\) page. 
 
-{% hint style="info" %}
+:::info
 Got a question? We want to help! If you have a question that isn't answered here, please [contact us](contact-us.md).
-{% endhint %}
+:::
 
 ## [Template Searches](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/keyword-search)
 
@@ -31,7 +31,7 @@ Every time we make a new release of an InterMine database, it is possible that s
 
 A message appears at the top of any page informing you that you have lists that need an update. To update your lists, you must be logged in to your user account. Within the Lists view page, lists that need to be updated will be shown first. The list upgrade system is the same as The Identifier Resolution page you see when you upload a list.
 
-### 1. I have saved my genomic regions from a query - how do I upload them to the region search?
+### 2. I have saved my genomic regions from a query - how do I upload them to the region search?
 
 BlueGenes does not support uploading genomic regions directly from the results of an InterMine search into regions search. You first need to download the regions and then reformat them to one of the accepted formats. 
 
