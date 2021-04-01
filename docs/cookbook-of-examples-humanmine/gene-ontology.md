@@ -86,7 +86,7 @@ Go term enrichment is calculated automatically for all gene lists. You need to n
 
 ### Other Gene Ontology searches
 
-HumanMine includes many other Gene Ontology related searches. To see the full range of searches, navigate to the [Template Searches](template-search.md) page and enter **‘GO’** into the search box - check [Finding the template search that you want](https://app.gitbook.com/@user-documentation-intermine/s/user-documentation/~/drafts/-MV2CivsOM4aGPUlhjlU/content/user-documentation/template-search#finding-the-template-search-that-you-want) for more details. 
+HumanMine includes many other Gene Ontology related searches. To see the full range of searches, navigate to the [Template Searches](template-search.md) page and enter **‘GO’** into the search box - check [Finding the template search that you want](template-search.md#finding-the-template-search-that-you-want) for more details.
 
 For instance, you can find all genes in a specific organism associated with a particular Gene Ontology \(GO\) annotation using the [GO term → Genes](http://bluegenes-staging.apps.intermine.org/humanmine/templates/GOterm_Gene) template. Various combinations of GO term and data searching are available; for example, [Gene + GO term → Genes by GO term](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_particularGoannotation) for a Gene or list of genes with GO annotation returns a subset of genes with that particular GO annotation. 
 

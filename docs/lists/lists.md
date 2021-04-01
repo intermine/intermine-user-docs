@@ -12,7 +12,7 @@ The following is a breakdown of what each key item in the **Lists view page** me
 
 1. You need to be logged in to your InterMine account![](/img/61205.png)to access your saved lists and perform specific tasks not available to guests, including copying, editing, and deleting lists.
 2. You can filter lists by typing in any keyword in the search field.
-3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+3. You can analyse your lists using the given set operations. These operations are inactive by default, and you need two or more lists to activate them. Please check [List set operations](lists/lists.md#list-set-operations) for more details.
 4. You can control the number of rows shown per page to 20, 50, or 100
 5. You can sort lists by date, type, tags, etc. 
 6. You can use![](/img/refresh.png)to refresh your lists
@@ -27,7 +27,7 @@ A public list is a list that has been created by InterMine developers and is ava
 ![](</img/public-list (1).png>)
 
 :::info
-You can't modify a public list. Instead, please make your own copy of that list to be able to edit it. Please check the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more details.
+You can't modify a public list. Instead, please make your own copy of that list to be able to edit it. Please check the [Copying lists](lists/lists.md#copying-lists) section for more details.
 :::
 
 ### Creating lists
@@ -76,11 +76,11 @@ You can then filter your lists by one of the available tags on the **Lists** vie
 
 ### Using lists in searches
 
-You can run searches on a list, such as a [template search](template-search.md) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) section for more information.
+You can run searches on a list, such as a [template search](template-search.md) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](template-search.md#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) section for more information.
 
 ### List analysis
 
-All lists have an associated [list analysis page](list-analysis-pages.md), which displays a summary of your lists and provides some analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#list-set-operations) for more details.
+All lists have an associated [list analysis page](list-analysis-pages.md), which displays a summary of your lists and provides some analysis tools. Besides, it is possible to carry out powerful analysis using lists' set operations, including union, intersect, subtract and symmetric difference. Please see [List set operations](lists/lists.md#list-set-operations) for more details.
 
 ### List set operations
 
@@ -122,7 +122,7 @@ This is more of a traditional ‘subtract’ function, in that the resulting lis
 
 ### Copying lists
 
-Copying a list or several lists can be done from the [Lists view page](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#viewing-lists). 
+Copying a list or several lists can be done from the [Lists view page](lists/lists.md#viewing-lists).
 
 :::info
 Remember to log in to your account to copy any list\(s\)
@@ -139,14 +139,14 @@ Remember to log in to your account to copy any list\(s\)
 You can click **Copy List\(s\)** to make a copy of the selected list\(s\) or click **Cancel** to exit the Copy list\(s\) window. 
 
 :::info
-Please note that lists can also be copied to a particular folder or sub-folder. Check the [Creating folders](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#creating-folders)section for more details about how to make new folders and sub-folders.
+Please note that lists can also be copied to a particular folder or sub-folder. Check the [Creating folders](lists/lists.md#creating-folders) section for more details about how to make new folders and sub-folders.
 :::
 
 ![](/img/copy-one.png)
 
 ![](/img/copy-all.png)
 
-For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [Renaming lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#renaming-lists) for more details. 
+For each copied list, a new list will be created with the same name as the original list and an underscore followed by a number. You should see a message at the top of the page informing you of the new list\(s\) created, and the copied list\(s\) will appear at the top of the **Lists** view page. The default name of the copied list\(s\) can be changed to any preferred name; please see [Renaming lists](lists/lists.md#renaming-lists) for more details.
 
 ![](/img/copied-list-default.png)
 
@@ -208,7 +208,7 @@ The BlueGenes application allows users to create folders and sub-folders to orga
 Folders can be created as part of copying, moving, or editing a list. 
 :::
 
-* You can create new folders while [copying](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) a list or a group of lists. While the Copy list\(s\) window is active, you can type any preferred folder name in the **Choose folder** input field and enter to create a new folder.
+* You can create new folders while [copying](lists/lists.md#copying-lists) a list or a group of lists. While the Copy list\(s\) window is active, you can type any preferred folder name in the **Choose folder** input field and enter to create a new folder.
 
 ![](/img/create-folder-2.png)
 
@@ -221,7 +221,7 @@ Click the arrow⬆icon to cancel copying the list into the new folder, and delet
 ![](/img/create-folder-3.png)
 
 :::info
-Please see the [Copying lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#copying-lists) section for more information about making a copy of a given list or group of lists.
+Please see the [Copying lists](lists/lists.md#copying-lists) section for more information about making a copy of a given list or group of lists.
 :::
 
 * New folders can also be created when moving a list or a group of lists while the **Move list\(s\)** window is active. Just type in any preferred folder name in the Choose folder input field and enter to create a new folder.
@@ -246,7 +246,7 @@ To view the contents of any folder, click on the folder's name or the➕icon to 
 
 ![](/img/create-folder-6.png)
 
-Folders and sub-folders can only be deleted by deleting their content. For example, if you wish to delete your newly created sub-folder, you can remove the content inside it, i.e. **My\_Copied\_List.** You can take a look at [Deleting lists](https://user-documentation-intermine.gitbook.io/user-documentation/content/user-documentation/lists/lists#deleting-lists) to know how to delete a list or several lists. 
+Folders and sub-folders can only be deleted by deleting their content. For example, if you wish to delete your newly created sub-folder, you can remove the content inside it, i.e. **My\_Copied\_List.** You can take a look at [Deleting lists](lists/lists.md#deleting-lists) to know how to delete a list or several lists.
 
 ![](/img/delete-subfolder.png)
 
