@@ -32,7 +32,7 @@ You can't modify a public list. Instead, please make your own copy of that list 
 
 ### Creating lists
 
-Lists can be created internally - for example, from [Results Tables](results-tables) or [Regions Search](region-search). They also can be uploaded from an external source via [Upload a list](upload-a-list). 
+Lists can be created internally - for example, from [Results Tables](../results-tables) or [Regions Search](../region-search). They also can be uploaded from an external source via [Upload a list](upload-a-list).
 
 :::info
 Remember that you need to have an account before copying or storing any lists.
@@ -76,7 +76,7 @@ You can then filter your lists by one of the available tags on the **Lists** vie
 
 ### Using lists in searches
 
-You can run searches on a list, such as a [template search](template-search) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) section for more information.
+You can run searches on a list, such as a [template search](../template-search) or a search you have built using the query builder. For example, you may want to run a search to find all the GO terms for a list of genes. You can use lists in your searches in the template form - in list option. Check [How do I run a template search with one of my lists or a public list?](../template-search#how-do-i-run-a-template-search-with-one-of-my-lists-or-a-public-list) section for more information.
 
 ### List analysis
 

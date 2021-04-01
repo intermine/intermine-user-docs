@@ -25,13 +25,13 @@ It is possible to identify genes expressed solely in one tissue \(i.e. tissue-sp
 
 ### How do I find which tissues my gene or list of genes are expressed in?
 
-The easiest way to view the available expression data for a single gene is to look at the [Report Pages](report-pages) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](lists/list-analysis-pages). 
+The easiest way to view the available expression data for a single gene is to look at the [Report Pages](../report-pages) for that gene. Gene report pages display graphs showing the expression of a particular gene in human tissues. For a list of genes, similar graphs are available on the [List analysis pages](../lists/list-analysis-pages).
 
 ### How do I find genes expressed in a particular tissue?
 
 Many template searches are available to analyse the various sources of expression data. These templates provide details of the specific dataset. However, due to the widely variant nature of the different expression sources, it is generally necessary to query any dataset independently to identify genes expressed in a tissue - or set of tissues - or identify the tissues that a particular gene or list of genes are expressed in. 
 
-To view all template searches for expression data, you need to navigate to the [Templates](template-search) tab and then filter the templates list by **“Expression”** using the **“Filter by category”** subtabs or the categories tags. 
+To view all template searches for expression data, you need to navigate to the [Templates](../template-search) tab and then filter the templates list by **“Expression”** using the **“Filter by category”** subtabs or the categories tags.
 
 ```text
 Place holder for a video (Expression Data 1)
@@ -46,7 +46,7 @@ This is a three step process:
    * To accomplish this, you can use the [Tissue → Protein Atlas Expression](http://bluegenes-staging.apps.intermine.org/humanmine/templates/tissue_proteinatlas2) template, which returns a list of genes that are localised in a given human tissue. Use the drop-down list to select all tissues one at a time except the one you want to find the tissue-specific genes, for example the **Adipose** tissue. The operator should be set to **“One of”** as shown in the screenshot.
    * The template also offers two other filters, the **expression level** and **experimental confidence**/**reliability**. First remove the **“not detected”** and **“low”** options from the level constraint. 
    * Then remove the **“uncertain”** option from the reliability constraint.
-   * You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](lists/lists). If you are unsure how to save a list of genes, see [Save a result set for further analysis](results-tables#save-a-result-set-for-further-analysis).
+   * You can now create a list of all the genes returned by your search, which should appear at the top of the [Lists view page](../lists/lists). If you are unsure how to save a list of genes, see [Save a result set for further analysis](../results-tables#save-a-result-set-for-further-analysis).
 
 2. Find the genes expressed in the tissue you are interested in
 
@@ -55,12 +55,12 @@ This is a three step process:
 
 3. Find the genes expressed ONLY in the tissue you are interested in. To find the genes that are expressed ONLY in the tissue you are interested in you need to subtract the first list created above from the second list. 
 
-   * To do this, navigate to your saved lists under the [Lists](lists/lists) tab;  
+   * To do this, navigate to your saved lists under the [Lists](../lists/lists) tab;
 
-     new lists appear at the top of the [Lists view page](lists/lists). 
+     new lists appear at the top of the [Lists view page](../lists/lists).
 
    * Select the two lists and then use the **“Subtract lists”** operation, which provides options to subtract the lists either way. You need to select the single tissue list - the **“Adipose tissue”** list - minus the all **“tissues but one”** list. 
-   * Enter a name for your new list, which should appear at the top of the [Lists view page](lists/lists). 
+   * Enter a name for your new list, which should appear at the top of the [Lists view page](../lists/lists).
 
 ```text
 Place holder for a video (Expression Data 2)
