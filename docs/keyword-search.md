@@ -30,5 +30,5 @@ The keyword search goes through all objects in the database for any term you ent
 
 ![](/img/keyword-search.png)
 
-Results from any keyword search link to [Report Pages](report-pages.md) for each item found. See the Report Pages section for more details about how to view information about a particular object. 
+Results from any keyword search link to [Report Pages](report-pages) for each item found. See the Report Pages section for more details about how to view information about a particular object. 
 

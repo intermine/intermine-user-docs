@@ -26,7 +26,7 @@ You can also share a report page with others by copying its permanent URL that i
 
 ### Summary
 
-Each report page starts with a summary section providing key details of the object you are viewing, such as the primary and secondary identifiers, name, id, and symbol, among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search.md). 
+Each report page starts with a summary section providing key details of the object you are viewing, such as the primary and secondary identifiers, name, id, and symbol, among other information. Some data fields are interactive, such as the **Name** field that offers a link to perform a [region search](region-search). 
 
 #### Sequence information
 
@@ -36,7 +36,7 @@ If you are viewing an object that has sequence information, you can view or down
 
 ### Data displayers
 
-Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages.md#report-page-navigation). The following screenshot shows available visualization tools under the HumanMine Expression section. You can view any visualization by clicking on its title or the ➕ icon.
+Report pages provide information in a variety of formats depending on the data. For example, they include several graphs or visualizations of data under some of the [main sections](report-pages#report-page-navigation). The following screenshot shows available visualization tools under the HumanMine Expression section. You can view any visualization by clicking on its title or the ➕ icon.
 
 ![](/img/visualizations-updated.png)
 
@@ -44,11 +44,11 @@ Report pages provide information in a variety of formats depending on the data. 
 Remember visualization tools apply to all report pages for a specific class, such as Gene, and are not the same for different objects - classes - nor Intermine instances. 
 :::
 
-Report pages also include [results tables](results-tables.md) of other classes referenced from the current object's class. The image below shows the **Transcripts** class referenced from the PPARG gene - Gene class. 
+Report pages also include [results tables](results-tables) of other classes referenced from the current object's class. The image below shows the **Transcripts** class referenced from the PPARG gene - Gene class. 
 
 ![](/img/transcript-class-updated.png)
 
-Report pages offer templates under some of the left sidebar [sections](report-pages.md#report-page-navigation). The results of embedded template searches provide [results tables](results-tables.md) with their full functionality, as shown in the screenshot. Use the **“Options”** button in the template header to expand the full result table options.
+Report pages offer templates under some of the left sidebar [sections](report-pages#report-page-navigation). The results of embedded template searches provide [results tables](results-tables) with their full functionality, as shown in the screenshot. Use the **“Options”** button in the template header to expand the full result table options.
 
 ![](</img/go-template (1).png>)
 
@@ -66,7 +66,7 @@ Report pages provide two sorts of external links - links to other InterMine data
 
 ### Lists
 
-Report pages also show if the current object is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone - view the [Lists](lists/lists.md) section for more details. The following image shows that the PPARG gene was found in 13 lists; 12 are public lists, and one is private. 
+Report pages also show if the current object is present in any lists. The lists shown could be lists you have created yourself or public lists that are available to everyone - view the [Lists](lists/lists) section for more details. The following image shows that the PPARG gene was found in 13 lists; 12 are public lists, and one is private. 
 
 ![](/img/report-pages-lists.png)
 

@@ -18,5 +18,5 @@ Data sets and data sources can be included in queries results;  this is particul
 
 ![](/img/interaction-data.png)
 
-For more on how to add information to the query results, see [Adding additional columns of data to your results](results-tables.md#adding-additional-columns-of-data-to-your-results), or [The Query Builder](the-query-builder.md).
+For more on how to add information to the query results, see [Adding additional columns of data to your results](results-tables#adding-additional-columns-of-data-to-your-results), or [The Query Builder](the-query-builder).
 
