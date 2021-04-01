@@ -1,4 +1,8 @@
-# Website
+# InterMine User Documentation
+
+Documentation for using an InterMine webapp.
+
+# Docusaurus 2
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
