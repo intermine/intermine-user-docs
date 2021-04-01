@@ -3,7 +3,7 @@ title: Introduction
 slug: /
 ---
 
-### Welcome to InterMine!👋 
+### Welcome to InterMine! 👋
 
 Before diving into details on the BlueGenes user interface and its capabilities, let us introduce some background information about the InterMine software. 
 
