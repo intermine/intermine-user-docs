@@ -2,11 +2,13 @@
 title: Results Tables
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Running any search from the available [template searches ](template-search)or using the [query builder](the-query-builder) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
 
 ### Understanding and navigating through the data
 
-The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward and forward arrow icons ◀ ▶, or you can go straight to the last or the first pages using the skip icons <img className="inline-image" src="/img/previous2.png"/> <img className="inline-image" src="/img/next2.png"/>.
+The first thing to note on results tables is the number of rows returned by your query. By default, the number of rows shown per page is 10 and can be changed to 20, 50, 100, or 250 rows per page. For large data sets, you can navigate through your results one page at a time using the backward and forward arrow icons ◀ ▶, or you can go straight to the last or the first pages using the skip icons <img className="inline-image" src={useBaseUrl('/img/previous2.png')}/> <img className="inline-image" src={useBaseUrl('/img/next2.png')}/>.
 
 ![](/img/navigate-data-1.png)
 
@@ -22,7 +24,7 @@ Columns showing certain object identifiers or symbols will be linked to the [Rep
 
 ### Column summaries
 
-A summary of the data in each column of a results table can be accessed by clicking on the graph icon <img className="inline-image" src="/img/bar-chart.png"/> in the column header.
+A summary of the data in each column of a results table can be accessed by clicking on the graph icon <img className="inline-image" src={useBaseUrl('/img/bar-chart.png')}/> in the column header.
 
 ![](/img/graph.png)
 
@@ -74,7 +76,7 @@ Results by default are always returned with what we call an inner join. So, in t
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon <img className="inline-image" src="/img/screenshot-902-.png"/> in the column header and the [Column summaries](results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon.
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon <img className="inline-image" src={useBaseUrl('/img/screenshot-902-.png')}/> in the column header and the [Column summaries](results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon.
 
 ![](/img/filters.png)
 
@@ -92,7 +94,7 @@ You can also add, edit or remove filters using the **Manage Filters** button, wh
 
 ### **Returning to your original results**
 
-Filters can be removed by clicking on <img className="inline-image" src="/img/screenshot-902-.png"/> icon and then click the delete icon <img className="inline-image" src="/img/remove-filters-2-copy.png"/> shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to the original table state.
+Filters can be removed by clicking on <img className="inline-image" src={useBaseUrl('/img/screenshot-902-.png')}/> icon and then click the delete icon <img className="inline-image" src={useBaseUrl('/img/remove-filters-2-copy.png')}/> shown below. Alternatively, you can use the **UNDO** button above the results to return to previous states. If you have added multiple filters, you can go back to any previous state of your results table or straight back to the original table state.
 
 :::note
 The original state may still have filters applied. Original state refers to the original query run, not to a table with no filters applied.

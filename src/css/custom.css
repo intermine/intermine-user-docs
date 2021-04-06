@@ -34,8 +34,8 @@ article li img,
 /* There is no way to distinguish between an image used within a paragraph, and
  * one used outside. This is because images outside paragraphs are always
  * wrapped in a paragraph element to add margins. The workaround is to use
- * `<img className="inline-image" src="/img/screenshot-902-.png"/>` instead of
- * `![](/img/screenshot-902-.png)`, which is targetted by the class below. */
+ * <img className="inline-image" src={useBaseUrl('/img/screenshot-902-.png')}/>
+ * instead of ![](/img/screenshot-902-.png), which is targetted by the class below. */
 .inline-image {
   height: 1em;
   margin: 0 0.25em;

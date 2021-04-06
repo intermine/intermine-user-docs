@@ -2,6 +2,7 @@
 title: Upload a list
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -27,8 +28,8 @@ The following is a breakdown of key fields in the list upload form:
     {label: 'Free Text', value: 'free_text'},
     {label: 'File Upload', value: 'file_upload'}
   ]}>
-  <TabItem value="free_text"><p><img src="/img/free-text-upload.png"/></p></TabItem>
-  <TabItem value="file_upload"><p><img src="/img/text-file-upload.png"/></p></TabItem>
+  <TabItem value="free_text"><p><img src={useBaseUrl('/img/free-text-upload.png')}/></p></TabItem>
+  <TabItem value="file_upload"><p><img src={useBaseUrl('/img/text-file-upload.png')}/></p></TabItem>
 </Tabs>
 
 You can click **Save List** to add the list to your stored lists.
@@ -60,18 +61,18 @@ For example, for the **New Uploaded List** created in the previous section, we h
   ]}>
   <TabItem value="matches">
 <p><strong>Exact matches:</strong> some exact matches were found for the listed identifiers.</p>
-<p><img src="/img/matches-2-.png"/></p>
+<p><img src={useBaseUrl('/img/matches-2-.png')}/></p>
   </TabItem>
   <TabItem value="converted">
 <p><strong>Converted types:</strong> these identifiers matched non-Gene records from which a relationship to a Gene was found. For example, we have selected to upload a list of genes, but one of the identifiers is for a protein, <strong>uncoupling protein 3</strong>. The gene identifier for this protein is given.</p>
-<p><img src="/img/converted-2-.png"/></p>
+<p><img src={useBaseUrl('/img/converted-2-.png')}/></p>
   </TabItem>
   <TabItem value="synonyms">
 <p><strong>Synonym match:</strong> these identifiers match old identifiers. For example, the GLUT4 identifier is old, and the gene now has a new identifier.</p>
-<p><img src="/img/synonyms.png"/></p>
+<p><img src={useBaseUrl('/img/synonyms.png')}/></p>
   </TabItem>
   <TabItem value="ambiguous">
 <p><strong>Ambiguous:</strong> some of the identifiers matched more than one entry in the database. In this case, the identifiers could belong to different species, and this could have been avoided by selecting the organism on the list upload page.</p>
-<p><img src="/img/ambiguous-3-.png"/></p>
+<p><img src={useBaseUrl('/img/ambiguous-3-.png')}/></p>
   </TabItem>
 </Tabs>

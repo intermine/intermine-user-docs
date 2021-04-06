@@ -2,6 +2,7 @@
 title: The Query Builder
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -26,7 +27,7 @@ The query builder page is divided into several sections, as follows:
 <p>The <strong>Model browser</strong> helps you find and add your data of interest.</p>
 
 <p>
-  <img src="/img/data-model-edited (1).png"/>
+  <img src={useBaseUrl('/img/data-model-edited (1).png')}/>
 </p>
 
 <ol>
@@ -42,7 +43,7 @@ The query builder page is divided into several sections, as follows:
 <p>When you click the <strong>Browse</strong> button in the <strong>Model browser</strong>, you are directed to the <strong>Data browser tree</strong> to browse all class names. Clicking on any class name will take you back to the Model browser with that class selected in the class field. You can also switch back to the Model browser when you click the <strong>Back To Model</strong> button.</p>
 
 <p>
-  <img src="/img/data-tree.png"/>
+  <img src={useBaseUrl('/img/data-tree.png')}/>
 </p>
   </TabItem>
 </Tabs>
@@ -59,12 +60,12 @@ The query builder page is divided into several sections, as follows:
   <TabItem value="query_editor">
 <p>The <strong>Query Editor</strong> tab allows you to edit your query by adding filters - constraints - to any column or remove selected classes or attributes.</p>
 
-<p><img src="/img/editor-window (1).png"/></p>
+<p><img src={useBaseUrl('/img/editor-window (1).png')}/></p>
   </TabItem>
   <TabItem value="manage_columns">
 <p>The <strong>Manage Columns</strong> tab lets you manage the order of selected columns in your results and sort data in each column alphabetically in ascending or descending order.</p>
 
-<p><img src="/img/manage-cols (1).png"/></p>
+<p><img src={useBaseUrl('/img/manage-cols (1).png')}/></p>
   </TabItem>
 </Tabs>
 
@@ -80,12 +81,12 @@ The query builder page is divided into several sections, as follows:
   <TabItem value="preview">
 <p>The <strong>Preview</strong> tab lets you view how the results of the query under construction will look like.</p>
 
-<p><img src="/img/preview-2.png"/></p>
+<p><img src={useBaseUrl('/img/preview-2.png')}/></p>
   </TabItem>
   <TabItem value="xml">
 <p>The <strong>XML</strong> tab lets you view and copy queries in XML format to share them with others or save them for later.</p>
 
-<p><img src="/img/xml.png"/></p>
+<p><img src={useBaseUrl('/img/xml.png')}/></p>
   </TabItem>
 </Tabs>
 
@@ -103,31 +104,31 @@ The query builder page is divided into several sections, as follows:
   <TabItem value="recent_queries">
 <p>The <strong>Recent Queries</strong> tab displays recent queries you run.</p>
 
-<p><img src="/img/recent.png"/></p>
+<p><img src={useBaseUrl('/img/recent.png')}/></p>
   </TabItem>
   <TabItem value="saved_queries">
 <p>When you successfully save a query, a confirmation message will be shown, and you can view saved queries under the <strong>Saved Queries</strong> tab.</p>
 
-<p><img src="/img/save-query-message.png"/></p>
+<p><img src={useBaseUrl('/img/save-query-message.png')}/></p>
 
 <p>To the right of each saved query, there are three actions associated with each saved query - <strong>Load</strong>, <strong>Rename</strong> and <strong>Delete</strong>. For example, you can use the <strong>Load</strong> action to load a query in the <strong>Query Editor</strong> tab.</p>
 
-<p><img src="/img/saved-queries.png"/></p>
+<p><img src={useBaseUrl('/img/saved-queries.png')}/></p>
 
 <p>You can change the name of any saved query using the <strong>Rename</strong> option.</p>
 
-<p><img src="/img/rename-a-query.png"/></p>
+<p><img src={useBaseUrl('/img/rename-a-query.png')}/></p>
 
 <p>You can remove a query through the <strong>Delete</strong> action. The deleted query can be restored through the link in the confirmation message shown in the following screenshot.</p>
 
-<p><img src="/img/delete-a-query.png"/></p>
+<p><img src={useBaseUrl('/img/delete-a-query.png')}/></p>
 
 <div class="admonition admonition-danger alert alert--danger"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>danger</h5></div><div class="admonition-content"><p>Deleting a saved query cannot be undone once the confirmation message is no longer active.</p></div></div>
   </TabItem>
   <TabItem value="import_from_xml">
 <p>You can also import a query by pasting the query XML in the input field and click <strong>Load Query</strong> under the <strong>Import from XML</strong> tab.</p>
 
-<p><img src="/img/import-xml-query.png"/></p>
+<p><img src={useBaseUrl('/img/import-xml-query.png')}/></p>
   </TabItem>
 </Tabs>
 
