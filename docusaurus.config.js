@@ -2,8 +2,8 @@
 module.exports = {
   title: 'InterMine User Documentation',
   tagline: 'Documentation for using an InterMine webapp',
-  url: 'http://intermine.org/docs/user',
-  baseUrl: '/',
+  url: 'http://intermine.org',
+  baseUrl: '/docs/user',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
