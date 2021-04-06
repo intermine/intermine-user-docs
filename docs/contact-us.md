@@ -26,17 +26,13 @@ Please note that some InterMine databases will have their own help support email
 
 You can join the InterMine [**Discord**](http://chat.intermine.org) Server and find support from our community members. 
 
-{% embed url="https://discord.com/invite/rrJDS6N" %}
-
 ### Twitter🐦 
 
-Have a quick question? Hit us up on [**Twitter**](https://twitter.com/intermineorg)
+Have a quick question? Hit us up on [**Twitter**](https://twitter.com/intermineorg).
 
 ### Blog 📝 
 
 Stay up to date with our latest news, releases, and announcements posted on our [**Blog**](https://intermineorg.wordpress.com/)**.**
-
-{% embed url="https://intermineorg.wordpress.com/" %}
 
 ### By Mail 📮 
 
@@ -46,11 +42,8 @@ Downing St, CAMBRIDGE CB2 3EH, United Kingdom
 
 ### Visit Us 🇬🇧 
 
-Please contact us first, so we can get ready to have you!
-
-{% embed url="https://map.cam.ac.uk/Department+of+Genetics" caption="Downing site - Department of Genetics" %}
+You can find us [**here**](https://map.cam.ac.uk/Department+of+Genetics). Please contact us first, so we can get ready to have you!
 
 ### Roadmap 🗺 
 
-For more information about the upcoming releases, please visit the InterMine roadmap [**here**](https://github.com/intermine/bluegenes/projects/5)**.**
-
+For more information about upcoming releases, please see our [**InterMine roadmap**](https://github.com/intermine/intermine/projects/7) and [**BlueGenes roadmap**](https://github.com/intermine/bluegenes/projects).
