@@ -35,7 +35,39 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} University of Cambridge. Built with Docusaurus.`,
+      links: [
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'http://chat.intermine.org',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/intermineorg',
+            },
+          ]
+        },
+        {
+          title: 'More',
+          items: [
+            {
+              label: 'Blog',
+              href: 'https://intermineorg.wordpress.com/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/intermine/intermine-user-docs',
+            },
+            {
+              label: 'Contact us',
+              href: 'docs/contact-us',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()}, University of Cambridge. Built with Docusaurus.`,
     },
   },
   presets: [
