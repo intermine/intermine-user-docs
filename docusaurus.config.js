@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'intermine',
   projectName: 'intermine-user-docs',
+  plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
   themeConfig: {
     navbar: {
       title: 'InterMine User Documentation',
