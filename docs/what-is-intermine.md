@@ -1,6 +1,5 @@
 ---
 title: Introduction
-slug: /
 ---
 
 ### Welcome to InterMine! 👋

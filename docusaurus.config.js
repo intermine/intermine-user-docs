@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'InterMine User Documentation',
-  tagline: 'Documentation for using an InterMine webapp',
+  // tagline: 'Documentation for using an InterMine webapp', // Shows up on homepage - not that nice.
   url: 'http://intermine.org',
   baseUrl: '/intermine-user-docs/',
   onBrokenLinks: 'throw',
@@ -19,6 +19,8 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: 'docs/what-is-intermine', activeBasePath: 'docs', label: 'Docs', position: 'left'},
+        {href: 'https://intermineorg.wordpress.com/', label: 'Blog', position: 'left'},
         {
           href: 'http://intermine.org',
           label: 'InterMine',
@@ -42,7 +44,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
           editUrl:
             'https://github.com/intermine/intermine-user-docs/edit/master/',
         },
