@@ -26,11 +26,10 @@ const features = [
     description: (
       <>
         Objects in InterMine are standardised and distinct entities mapped to a
-      biological subject. This allows you to create lists of entities, and have
-      them interact with other lists, usually in the form of set operations
-      (e.g., union and intersection). Lists can be created from objects in
-      InterMine, and you can upload your own identifiers to be translated into
-      InterMine objects.
+      biological subject. This allows you to create lists of entities (such as 
+      gene or protein lists). Lists can be analysed using set operations (such 
+      as union and intersect) and used in batch queries. Lists can be created 
+      from queries in an InterMine or uploaded from an external source. 
       </>
     ),
   },
@@ -40,8 +39,8 @@ const features = [
     description: (
       <>
         The maintainers of an InterMine make available useful queries by
-      predefining them as templates. These contain fields which you can edit,
-      like when you wish to acquire tissue expression data for a specific gene.
+      predefining them as templates. These contain fields that you can edit 
+      such as specifying a specific gene or tissue for expression data.
       Advanced users are also able to create their own queries by utilising the
       powerful Query Builder interface.
       </>
@@ -52,8 +51,8 @@ const features = [
     imageUrl: '/img/feature-report.png',
     description: (
       <>
-        When you wish to focus on one specific InterMine object - an example of
-      which can be a gene, protein or publication - you can view their report
+        When you wish to focus on one specific object, such as a gene, protein 
+      or publication - you can view their report
       to see all data related to them, in addition to custom visualisations and
       compatible predefined queries. Any data in a table can be clicked to
       navigate to its respective report.
