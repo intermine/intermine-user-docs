@@ -14,13 +14,13 @@ If you still can't find what you're looking for, you can contact us in several w
 
 ### By Email 📧 
 
-* For general enquiries, you can email us at `info [at] intermine [dot] org`
-* If you have any issues and need support, email us at our general support email `support [at] intermine [dot] org`
+* For general enquiries, you can email us at `info [at] intermine [dot] org`.
+* If you have any issues and need support, email us at our general support email `support [at] intermine [dot] org`.
 
 Please note that some InterMine databases will have their own help support emails. 
 
-* For FlyMine, please use [support@flymine.org](mailto:support%40flymine.org).
-* For MetabolicMine/HumanMine, please use [support@metabolicmine.org](mailto:support%40metabolicmine.org).
+* For FlyMine, please use `support [at] intermine [dot] org`.
+* For MetabolicMine/HumanMine, please use `support [at] metabolicmine [dot] org`.
 
 ### Chat 💬 
 
