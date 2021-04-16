@@ -2,6 +2,8 @@
 title: Keyword Search
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 The BlueGenes' keyword search makes it fast and easy to find any keyword you need. A search box appears in the top navigation bar of all pages and the homepage. You can search for any identifier, name, symbol or term.
 
 ![Search bar in the top navigation bar](/img/search-mini-with-border.png)
@@ -32,3 +34,6 @@ The keyword search goes through all objects in the database for any term you ent
 
 Results from any keyword search link to [Report Pages](report-pages) for each item found. See the Report Pages section for more details about how to view information about a particular object. 
 
+### Video tutorial
+
+<Youtube id="iGk5L1xG1vQ"/>

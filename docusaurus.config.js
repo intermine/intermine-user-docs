@@ -19,7 +19,8 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: 'docs/what-is-intermine', activeBasePath: 'docs', label: 'Docs', position: 'left'},
+        {to: 'docs/what-is-intermine', activeBaseRegex: '/docs/(?!videos)', label: 'Docs', position: 'left'},
+        {to: 'docs/videos', activeBasePath: 'docs/videos', label: 'Videos', position: 'left'},
         {href: 'https://intermineorg.wordpress.com/', label: 'Blog', position: 'left'},
         {
           href: 'http://intermine.org',

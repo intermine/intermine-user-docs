@@ -2,6 +2,8 @@
 title: Template Searches
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 ### What is a template search?
 
 A template search is a pre-defined query that has been created and is ready to be used. Template searches allow you to search the database without constructing your own queries from scratch or understanding the underlying data structure. A library of template searches covering a full range of data is available.
@@ -81,3 +83,8 @@ All templates should return results with the default values provided. Please [Co
 
 Please [Contact Us](contact-us) if you require further assistance. 
 
+### Video tutorials
+
+<Youtube id="VX2z3cGhhHo"/>
+
+<Youtube id="nGssqeIlqU8"/>

@@ -2,6 +2,8 @@
 title: Expression Data
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 ### HumanMine tissue expression datasets
 
 In HumanMine, we load several datasets that provide information about expression data in different tissues. These datasets use different experimental techniques and measurements, making it difficult to compare them directly, but we have specific queries and visualizations for each dataset. The table below summarises these datasets.
@@ -33,9 +35,7 @@ Many template searches are available to analyse the various sources of expressio
 
 To view all template searches for expression data, you need to navigate to the [Templates](../template-search) tab and then filter the templates list by **“Expression”** using the **“Filter by category”** subtabs or the categories tags.
 
-```text
-Place holder for a video (Expression Data 1)
-```
+<Youtube id="hq3dbdVj_AI" size="sm"/>
 
 ### How do I find genes expressed ONLY in a particular tissue?
 
@@ -62,7 +62,4 @@ This is a three step process:
    * Select the two lists and then use the **“Subtract lists”** operation, which provides options to subtract the lists either way. You need to select the single tissue list - the **“Adipose tissue”** list - minus the all **“tissues but one”** list. 
    * Enter a name for your new list, which should appear at the top of the [Lists view page](../lists/lists).
 
-```text
-Place holder for a video (Expression Data 2)
-```
-
+<Youtube id="q15BFCJxNfE" size="sm"/>

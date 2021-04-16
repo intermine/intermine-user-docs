@@ -2,6 +2,8 @@
 title: Gene Ontology Data
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 ### How do I find the GO annotations for my set of genes?
 
 :::info
@@ -15,9 +17,7 @@ To find the GO term annotations for your genes, it's easier to start by finding 
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
 4. Select a list that you wish to run the search with, then press **‘View Rows’**. 
 
-```text
-Video (Example 1) Place Holder
-```
+<Youtube id="HjhXd1nxAnY" size="sm"/>
 
 ### Modifying and filtering your search results
 
@@ -31,9 +31,7 @@ The easiest way to filter your results is by using the filter functions in the r
 2. Then select **‘biological\_process’** using the checkbox to the left, and click the **‘Filter’** button. 
 3. To return to your original results, either remove the filter by clicking on the blue filter icon![](/img/screenshot-902-.png)in the column header or use the **UNDO** button above the results table. 
 
-```text
-Video (Example 2) Place Holder
-```
+<Youtube id="P5-W3gSb7a4" size="sm"/>
 
 ### How do I filter my results to remove those with the IEA - Inferred from Electronic Annotation - evidence code? 
 
@@ -45,9 +43,7 @@ You can accomplish this in three ways:
 2. Select all evidence codes except the **IEA** code.
 3. Click **Filter**. 
 
-```text
-Video (Example 3 - part 1) Place Holder
-```
+<Youtube id="TABWZwsvUNY" size="sm"/>
 
 * **Using the Code column filter icon**
 
@@ -60,9 +56,7 @@ Video (Example 3 - part 1) Place Holder
 Using the **‘Not like’** or **‘None of’** options will yield the same results. 
 :::
 
-```text
-Video (Example 3 - part 2) Place Holder
-```
+<Youtube id="LqRFVTTvSJg" size="sm"/>
 
 * **Using the Manage Filters feature**
 
@@ -76,9 +70,7 @@ Video (Example 3 - part 2) Place Holder
 Using the **‘Not like’** or **‘None of’** options will yield the same results. 
 :::
 
-```text
-Video (Example 3 - part 3) Place Holder
-```
+<Youtube id="kj67RvtFUgs" size="sm"/>
 
 ### How do I analyse my gene list for GO term enrichment?
 

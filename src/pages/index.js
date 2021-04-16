@@ -96,6 +96,14 @@ function Home() {
               to={useBaseUrl('docs/what-is-intermine')}>
               Get Started
             </Link>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/videos')}>
+              Video Tutorials
+            </Link>
           </div>
         </div>
       </header>

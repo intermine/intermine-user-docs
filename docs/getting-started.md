@@ -2,6 +2,8 @@
 title: Getting Started
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 This quick guide will walk you through the key functions of the InterMine - BlueGenes application UI. 
 
 You can use this guide to:
@@ -69,3 +71,6 @@ Alternatively, you may start by [Uploading a list](lists/upload-a-list) of genes
 
 Likewise, you may start by entering a gene identifier for a gene you have picked up in an experiment into the [Keyword Search](keyword-search) box and browse all the information for this gene on its [Report Pages](report-pages). From here, you learn that this gene has orthologues in fish, mouse and rat. You click the link for the mouse orthologue and, this takes you to the report page for this orthologous gene in a related intermine, MouseMine, and so on.
 
+### Video tutorial
+
+<Youtube id="6ZjJKDszhBs"/>

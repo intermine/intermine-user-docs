@@ -2,6 +2,8 @@
 title: Results Tables
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Running any search from the available [template searches ](template-search)or using the [query builder](the-query-builder) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
@@ -181,3 +183,6 @@ The InterMine data model comprises classes and fields - or attributes - Each cla
 
 First, make sure you are logged in so you can access your saved lists. Besides, make sure the type of the list \(e.g. genes or proteins\) is the same as the list you are trying to add to because the drop-down menu only shows lists of the same type of objects.
 
+### Video tutorial
+
+<Youtube id="vYqny26gElE"/>

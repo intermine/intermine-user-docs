@@ -2,6 +2,8 @@
 title: Lists
 ---
 
+import { Youtube } from '@site/src/components/embed';
+
 ### Overview
 
 A **list** in InterMine refers to multiple items of the same type - for example, a list of genes or a list of binding sites. A list cannot contain a mixture of types - e.g. genes and proteins. To access your lists library, click on the **Lists** tab in the main menu bar. 
@@ -260,3 +262,6 @@ Every time we make a new release of an InterMine database, it is possible that s
 
 A message appears at the top of any page informing you that you have lists that need an update. To update your lists, you must be logged in to your user account. Within the Lists view page, lists that need to be updated will be shown first. The list upgrade system is the same as The Identifier Resolution page you see when you upload a list.
 
+### Video tutorial
+
+<Youtube id="c-KYY-crgaY"/>
