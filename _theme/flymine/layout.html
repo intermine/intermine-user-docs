@@ -13,6 +13,10 @@
 <link href="{{ pathto("_static/pygments/radek.css", 1) }}" rel="stylesheet">
 {%- endblock -%}
 
+{%- block header -%}
+<div class="admonition warning"><p class="first admonition-title">Note</p> <p class="last"> You are reading the documentation related to the old user interface. Please find <a href="http://intermine.org/intermine-user-docs">here</a> the new user interface documentation.</p></div>
+{%- endblock -%}
+
 {# put the sidebar before the body #}
 {% block sidebar1 %}{{ sidebar() }}{% endblock %}
 {% block sidebar2 %}{% endblock %}
