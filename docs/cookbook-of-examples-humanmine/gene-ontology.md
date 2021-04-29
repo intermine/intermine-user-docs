@@ -13,7 +13,7 @@ This assumes that you have successfully uploaded or created your list of genes. 
 To find the GO term annotations for your genes, it's easier to start by finding a template search specifically for this purpose. 
 
 1. From the HumanMine homepage, select the **‘Templates’** tab from the top navigation bar.
-2. From the list of templates, we are looking for the [Gene → GO terms](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_GO) template. If you cannot see it immediately, enter the term **‘GO’** into the search box to filter the results. 
+2. From the list of templates, we are looking for the [Gene → GO terms](https://www.humanmine.org/humanmine/templates/Gene_GO) template. If you cannot see it immediately, enter the term **‘GO’** into the search box to filter the results.
 3. Click on the template name or **‘View &gt;&gt;’** at the bottom left corner to expand the template details, including the fillable form. 
 4. Select a list that you wish to run the search with, then press **‘View Rows’**. 
 
@@ -80,7 +80,7 @@ Go term enrichment is calculated automatically for all gene lists. You need to n
 
 HumanMine includes many other Gene Ontology related searches. To see the full range of searches, navigate to the [Template Searches](../template-search) page and enter **‘GO’** into the search box - check [Finding the template search that you want](../template-search#finding-the-template-search-that-you-want) for more details.
 
-For instance, you can find all genes in a specific organism associated with a particular Gene Ontology \(GO\) annotation using the [GO term → Genes](http://bluegenes-staging.apps.intermine.org/humanmine/templates/GOterm_Gene) template. Various combinations of GO term and data searching are available; for example, [Gene + GO term → Genes by GO term](http://bluegenes-staging.apps.intermine.org/humanmine/templates/Gene_particularGoannotation) for a Gene or list of genes with GO annotation returns a subset of genes with that particular GO annotation. 
+For instance, you can find all genes in a specific organism associated with a particular Gene Ontology \(GO\) annotation using the [GO term → Genes](https://www.humanmine.org/humanmine/templates/GOterm_Gene) template. Various combinations of GO term and data searching are available; for example, [Gene + GO term → Genes by GO term](https://www.humanmine.org/humanmine/templates/Gene_particularGoannotation) for a Gene or list of genes with GO annotation returns a subset of genes with that particular GO annotation.
 
 :::info
 If you can't find what you are looking for, please [Contact Us](../contact-us), and we can construct the template for you.

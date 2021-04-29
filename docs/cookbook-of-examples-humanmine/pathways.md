@@ -10,13 +10,13 @@ In HumanMine, we load pathway data from both [Reactome](http://www.reactome.org/
 
 Use the following template search:
 
-[Gene → Pathway](http://bluegenes-alpha.apps.intermine.org/humanmine/templates/Gene_Pathway)
+[Gene → Pathway](https://www.humanmine.org/humanmine/templates/Gene_Pathway)
 
 ### My gene is in pathway X; how I can find other genes involved in this pathway?
 
 Use the following template search:
 
-[Pathway → Genes](http://bluegenes-alpha.apps.intermine.org/humanmine/templates/PathwayGenes)
+[Pathway → Genes](https://www.humanmine.org/humanmine/templates/PathwayGenes)
 
 ### I am not sure of the exact name of the pathway that I am interested in; how I can find this?
 
@@ -30,7 +30,7 @@ We do have pathway visualizations within HumanMine at the bottom of every pathwa
 
 The underlying data model makes it possible to construct queries that effectively compare two lists for a specified attribute. Such a query is available as a template for comparing the pathways for two genes or two sets of genes. For two genes, the query will return any pathways that are shared by the two genes. Similarly, if two lists are provided, any pathways shared between any two genes in the lists are returned. The template is:
 
-[Gene A → Pathways ← Gene B](http://bluegenes-alpha.apps.intermine.org/humanmine/templates/ListPathway)
+[Gene A → Pathways ← Gene B](https://www.humanmine.org/humanmine/templates/ListPathway)
 
 ### How do I find whether orthologues of my gene\(s\) share similar or have additional pathways?
 
