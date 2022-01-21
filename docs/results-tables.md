@@ -6,7 +6,7 @@ import { Youtube } from '@site/src/components/embed';
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Running any search from the available [template searches ](template-search)or using the [query builder](the-query-builder) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
+Running any search from the available [template searches ](/docs/template-search)or using the [query builder](/docs/the-query-builder) will return results as a results table. Results tables are also used to display the contents of a particular list on list analysis pages. Results tables are not limited to displaying search results, but they are also considered powerful analysis tools. They allow you to summarise, filter, add or remove columns, create lists, and download data.
 
 ### Understanding and navigating through the data
 
@@ -20,7 +20,7 @@ The second thing to note is the column headings, which give the field name for t
 
 ### Finding out more - links
 
-Columns showing certain object identifiers or symbols will be linked to the [Report Pages](report-pages) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes. 
+Columns showing certain object identifiers or symbols will be linked to the [Report Pages](/docs/report-pages) for that object. In addition, hovering over a given cell in the table shows a pop-up summary of the object, which gives more details about its main attributes.
 
 ![](/img/links.png)
 
@@ -58,7 +58,7 @@ Column summaries are useful for several reasons. The following are a few ideas f
 
 * For a list of genes, find how many have the same annotation, where annotation could be anything associated with your genes such as GO terms, pathways or diseases.
 
-You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the `Gene → Pathways` template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column, you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes.
+You have a public list of Pax6 genes, **PL\_Pax6\_Targets**, and want to find out which pathways they are involved in. You can run the `Gene → Pathways` template with your list of genes. The results table shows your genes and the names of all pathways they are annotated with. By clicking on the **column summary** for the _pathway.name_ column, you can now find out how many genes are associated with each pathway. In the example shown below, 44 of the genes in the list are associated with the **Signal Transduction** pathway. If you wish to analyse this set of genes further, you can filter the table for this set and then create a new list with this set of genes. Check the [Save a result set for further analysis](/docs/results-tables#save-a-result-set-for-further-analysis) section for how to create a sub-list of genes.
 
 ![](/img/column-summary-application-1-cut.png)
 
@@ -71,14 +71,14 @@ For example, when you run the `Gene → Pathways` template search with the same 
 ![](/img/unique-genes.png)
 
 :::info
-Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](results-tables#save-a-result-set-for-further-analysis) section for more details.
+Note that if you want to create a list of these genes, you will create a list of 153 unique genes. Please see the [Save a result set for further analysis](/docs/results-tables#save-a-result-set-for-further-analysis) section for more details.
 :::
 
-Results by default are always returned with what we call an inner join. So, in the example above, if a gene in the list does not have associated pathway data then it will not appear in the results. This can be changed - see the [Query Builder - Outer joins](the-query-builder#outer-joins) section for more details.
+Results by default are always returned with what we call an inner join. So, in the example above, if a gene in the list does not have associated pathway data then it will not appear in the results. This can be changed - see the [Query Builder - Outer joins](/docs/the-query-builder#outer-joins) section for more details.
 
 ### Apply a filter to your results
 
-Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon <img className="inline-image" src={useBaseUrl('/img/screenshot-902-.png')}/> in the column header and the [Column summaries](results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon.
+Results tables allow you to explore your results by applying filters to any of the resulting data columns. Filters can be applied through the **filter** icon <img className="inline-image" src={useBaseUrl('/img/screenshot-902-.png')}/> in the column header and the [Column summaries](/docs/results-tables#column-summaries). The filter icon allows you to edit or remove any existing filters and add additional filters to your results. Any active filters are shown and can only be removed or edited when you click the filter icon.
 
 ![](/img/filters.png)
 
@@ -114,7 +114,7 @@ Additional fields of data can be added to your results using the **Add Columns**
 4. Click **Apply** to re-draw the results table.
 
 :::info
-If you do not know which field contains the data you require, try adding one or more columns and re-draw the table - it is easy to remove them again. Alternatively, you can [Contact Us](contact-us), and we are here to help.
+If you do not know which field contains the data you require, try adding one or more columns and re-draw the table - it is easy to remove them again. Alternatively, you can [Contact Us](/docs/contact-us), and we are here to help.
 :::
 
 ![](/img/adding-new-columns.png)
@@ -139,7 +139,7 @@ There are two ways to change the sort order of the columns in your results table
 
 ![](/img/sorting-columns-2.png)
 
-* The second way to set the sort order is through the [**Query Builder**](the-query-builder) tab, where you can define the sort order of all columns in your table under the [**Manage Columns**](the-query-builder#overview) sub-tab.
+* The second way to set the sort order is through the [**Query Builder**](/docs/the-query-builder) tab, where you can define the sort order of all columns in your table under the [**Manage Columns**](/docs/the-query-builder#overview) sub-tab.
 
 ![](/img/sorting-cols.png)
 
@@ -147,7 +147,7 @@ By default, the table is usually sorted according to the first column in your re
 
 ### Save a result set for further analysis
 
-Lists of objects can be saved from results tables to your private lists account or temporarily for the duration of your session if you are not logged in. A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins, you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table,  maintaining the association between each gene and protein. You can download the full table or subsets of it - see [Download a set of results](results-tables#download-a-set-of-results).
+Lists of objects can be saved from results tables to your private lists account or temporarily for the duration of your session if you are not logged in. A list of objects can contain only one type of object. For example,  if you have a results table showing both genes and proteins, you can create a list of all or some of the genes and another list of all or some of the proteins. However, you cannot create a mixed list of genes or proteins or save the table,  maintaining the association between each gene and protein. You can download the full table or subsets of it - see [Download a set of results](/docs/results-tables#download-a-set-of-results).
 
 You can save a subset of the resulting data in a new list by clicking the **Save List** button at the top of the columns header. You can select from the sets of objects available to save or choose individual items from the table using their corresponding checkboxes. 
 

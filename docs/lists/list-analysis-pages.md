@@ -4,7 +4,7 @@ title: List analysis
 
 ### Overview
 
-Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particular list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists available in the database, click on the [Lists](lists) tab. Clicking on a list name will display its associated analysis page. 
+Every list has an associated list analysis page. A list analysis page is analogous to a gene report page that provides collated information about all objects in a particular list. When you upload a new list, you will be automatically taken to its list analysis page. To access the list analysis page for public lists available in the database, click on the [Lists](/docs/lists/lists) tab. Clicking on a list name will display its associated analysis page.
 
 :::info
 Remember, you must be logged in to your account to view your private lists!

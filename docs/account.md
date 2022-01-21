@@ -94,5 +94,5 @@ Yes. When you have an account, any lists or queries you save are stored permanen
 
 #### 2. What happens to my lists and queries when you make a new database release?
 
-All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see the [Upgrading lists](lists/lists#upgrading-lists) section for more details\). Occasionally we have to make changes to the underlying data model, affecting any queries you have saved. Please contact [Contact Us](contact-us) if you would require any further assistance.
+All lists and queries are transferred to the new database release. Sometimes identifiers in lists become outdated, and you will be asked to update your list \(see the [Upgrading lists](/docs/lists/lists#upgrading-lists) section for more details\). Occasionally we have to make changes to the underlying data model, affecting any queries you have saved. Please contact [Contact Us](/docs/contact-us) if you would require any further assistance.
 

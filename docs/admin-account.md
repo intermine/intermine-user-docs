@@ -2,9 +2,9 @@
 title: Admin Account
 ---
 
-In InterMine, there are two account types, **User and Admin**, that define your level of access to the interface and your permissions. By default, when you first create an account, you'll have the [User](account) role permissions. You can check the [account ](account)section for more details about the User role and its privileges. 
+In InterMine, there are two account types, **User and Admin**, that define your level of access to the interface and your permissions. By default, when you first create an account, you'll have the [User](/docs/account) role permissions. You can check the [account](/docs/account) section for more details about the User role and its privileges.
 
-The Admin or Superuser role has all of the [user](account) role permissions plus additional administrative capabilities that include access to the [Admin Pages](admin-account#the-admin-pages) and the [Tools Store](admin-account#the-tools-store).
+The Admin or Superuser role has all of the [user](/docs/account) role permissions plus additional administrative capabilities that include access to the [Admin Pages](/docs/admin-account#the-admin-pages) and the [Tools Store](/docs/admin-account#the-tools-store).
 
 ![](/img/admin-menu-updated.png)
 

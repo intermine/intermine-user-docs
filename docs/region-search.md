@@ -27,7 +27,7 @@ Like most genome portals, such as NCBI, bioinformatics software, such as BLAST, 
 
 ### Regions Search Results
 
-The regions search provides results in a tabular format from which there are links to [Report Pages](report-pages). The resulting table displays each of your regions in turn with all features found and their genomic location.  
+The regions search provides results in a tabular format from which there are links to [Report Pages](/docs/report-pages). The resulting table displays each of your regions in turn with all features found and their genomic location.
 
 ![](/img/region-search-results.png)
 
@@ -40,7 +40,7 @@ The Data section provides more information about the selected feature using Resu
 ![](/img/regions-data-1.png)
 
 :::info
-Check the [Report Pages](report-pages) section to understand the results of a Regions Search better. 
+Check the [Report Pages](/docs/report-pages) section to understand the results of a Regions Search better.
 :::
 
 ### Troubleshooting

@@ -204,12 +204,12 @@ Every attribute has a **checkbox** on the left that you can tick ✅ to add that
 ![](/img/checkboxes.png)
 
 :::info
-Columns are shown - and can be removed - under the [Query Editor](the-query-builder#overview) tab.
+Columns are shown - and can be removed - under the [Query Editor](/docs/the-query-builder#overview) tab.
 :::
 
 ### Run your search
 
-Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](results-tables). 
+Once you are happy with your query and the attributes you have selected for your results, press **Show All Rows** to run your search. Your results will be displayed in our [Results Tables](/docs/results-tables).
 
 ## Advanced features of the query builder
 
@@ -243,7 +243,7 @@ Coming soon.
 
 ### Constraint logic
 
-You can set the constraint logic for your query under the [**Query Editor**](the-query-builder#overview) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](the-query-builder#overview) tab. The constraint logic accepts: **AND**, **OR**, and **NOT** logic and can be edited using the✏icon as shown in the next screenshot:
+You can set the constraint logic for your query under the [**Query Editor**](/docs/the-query-builder#overview) tab. Each constraint is assigned a letter, which is shown along with the constraint logic at the bottom of the [Query Editor](/docs/the-query-builder#overview) tab. The constraint logic accepts: **AND**, **OR**, and **NOT** logic and can be edited using the✏icon as shown in the next screenshot:
 
 ![](/img/constraint-logic.png)
 
@@ -253,11 +253,11 @@ By default, constraint logic is set to AND
 
 ### Sorting
 
-By default, results are sorted on the contents of the first column. However, sorting and reordering columns can be changed under the **Manage Columns** tab. Check the [**Query Editor**](the-query-builder#overview) tab at the top of this page for more details about sorting and ordering columns.
+By default, results are sorted on the contents of the first column. However, sorting and reordering columns can be changed under the **Manage Columns** tab. Check the [**Query Editor**](/docs/the-query-builder#overview) tab at the top of this page for more details about sorting and ordering columns.
 
 ### Saving and exporting your query
 
-If you are logged in, you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the [**Query Editor**](the-query-builder#overview) tab.
+If you are logged in, you can save a query you have constructed permanently under the **Saved Queries** tab. The **Save Query** button is found at the bottom of the [**Query Editor**](/docs/the-query-builder#overview) tab.
 
 ![](/img/save-1.png)
 
@@ -267,7 +267,7 @@ You can also save a query under the **Manage Columns** tab.
 
 ![](</img/save-query-message (1).png>)
 
-Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](contact-us) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the [Overview - Query Editor](the-query-builder#overview) tab for more information on saving and exporting queries.
+Further, you can export your query in XML under the **XML** tab. You can share exported queries with your colleagues or with the [InterMine team](/docs/contact-us) if you have any problems.  Queries can be imported in XML under the **Import from XML** tab and used in [**GET**](https://www.w3schools.com/tags/ref_httpmethods.asp) and [**POST**](https://www.w3schools.com/tags/ref_httpmethods.asp) requests used by the [web services](http://iodocs.labs.intermine.org/). See the [Overview - Query Editor](/docs/the-query-builder#overview) tab for more information on saving and exporting queries.
 
 ### Including NULL or NO VALUE in your search results
 
@@ -275,7 +275,7 @@ When using a “negative” search such as `!=`, it is important to - also -  co
 
 * For Example, If you try a query that only shows all genes where the gene name doesn’t equal a given name \(e.g.  `!=` BHV4\), this constraint will also exclude **NULL** values from the results. In such a case, you probably want your query to return all genes where the name does not equal “BHV4” **AND** also include genes that do not have a name in your query results. For genes that do not have a name, the name field shows **NO VALUE,** which is different to empty.
 
-You can try this query in HumanMine by pasting the query's XML under the [XML](the-query-builder#overview) tab:
+You can try this query in HumanMine by pasting the query's XML under the [XML](/docs/the-query-builder#overview) tab:
 
 ```xml
 <query model="genomic" view="Gene.symbol 
@@ -331,11 +331,11 @@ To add the **NULL** constraint, use the filter![](/img/screenshot-902-.png)icon 
 
 ### Why do I keep getting “No results” for my search?
 
-Sometimes your search gives “No results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](contact-us).
+Sometimes your search gives “No results” because one part of your search does not yield results. If you have several constraints, try removing only one at a time to see if you will get results. Alternatively, toggle your constraints to an [outer join](/docs/the-query-builder#outer-joins) from your results to see if there is data fulfilling that constraint; you can check [Outer joins](/docs/the-query-builder#outer-joins) for more details. If you still need additional help, please [Contact Us](/docs/contact-us).
 
 ### I am not sure how to start building a search; it looks hard!
 
-Every template search can be displayed in the query builder. Try looking at some of the simple templates in the query builder and see how they have been constructed. Use this as a starting point to try changing a constraint or adjusting what is shown in the results table. If you need any help, please [Contact Us](contact-us).
+Every template search can be displayed in the query builder. Try looking at some of the simple templates in the query builder and see how they have been constructed. Use this as a starting point to try changing a constraint or adjusting what is shown in the results table. If you need any help, please [Contact Us](/docs/contact-us).
 
 To decide which class to select to begin building a query, think about the data you are trying to return. For example, suppose you want to know about the expression of a set of genes. In that case, you can start your query from Gene, where you can define which genes you are interested in and then navigate to the expression data, where you can determine what expression data you like to see. Similarly, you could construct the same query by defining the expression data. Expression data links to Genes, which allows you to add your gene constraints.
 
@@ -345,7 +345,7 @@ The data browser is based on the sequence ontology and follows the logical relat
 
 ### I don’t understand what a field/class means.
 
-Some fields have an information icon, which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](contact-us). 
+Some fields have an information icon, which provides an additional description of those fields. If you are unsure of a field’s contents, you can add it to your results and run the query. Most queries give results immediately, which allows you to adjust the columns you want to include in your results and fine-tune your query. It is also possible to do this from within the **Results Tables**. If you need additional help, please [Contact Us](/docs/contact-us).
 
 ### How do I navigate to a class I have constrained without going through the model browser again?
 

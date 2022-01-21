@@ -7,7 +7,7 @@ import { Youtube } from '@site/src/components/embed';
 ### How do I find the GO annotations for my set of genes?
 
 :::info
-This assumes that you have successfully uploaded or created your list of genes. If you require help with this, please see [Lists - Upload a list](../lists/upload-a-list) section for more details.
+This assumes that you have successfully uploaded or created your list of genes. If you require help with this, please see [Lists - Upload a list](/docs/lists/upload-a-list) section for more details.
 :::
 
 To find the GO term annotations for your genes, it's easier to start by finding a template search specifically for this purpose. 
@@ -74,15 +74,15 @@ Using the **‘Not like’** or **‘None of’** options will yield the same re
 
 ### How do I analyse my gene list for GO term enrichment?
 
-Go term enrichment is calculated automatically for all gene lists. You need to navigate to the [List analysis page](../lists/list-analysis-pages) for your list, and the GO term enrichment for your list will be displayed as a widget. For more information on the enrichment calculation, see the [InterMine documentation](http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/).
+Go term enrichment is calculated automatically for all gene lists. You need to navigate to the [List analysis page](/docs/lists/list-analysis-pages) for your list, and the GO term enrichment for your list will be displayed as a widget. For more information on the enrichment calculation, see the [InterMine documentation](http://intermine.readthedocs.org/en/latest/embedding/list-widgets/enrichment-widgets/).
 
 ### Other Gene Ontology searches
 
-HumanMine includes many other Gene Ontology related searches. To see the full range of searches, navigate to the [Template Searches](../template-search) page and enter **‘GO’** into the search box - check [Finding the template search that you want](../template-search#finding-the-template-search-that-you-want) for more details.
+HumanMine includes many other Gene Ontology related searches. To see the full range of searches, navigate to the [Template Searches](/docs/template-search) page and enter **‘GO’** into the search box - check [Finding the template search that you want](/docs/template-search#finding-the-template-search-that-you-want) for more details.
 
 For instance, you can find all genes in a specific organism associated with a particular Gene Ontology \(GO\) annotation using the [GO term → Genes](https://www.humanmine.org/humanmine/templates/GOterm_Gene) template. Various combinations of GO term and data searching are available; for example, [Gene + GO term → Genes by GO term](https://www.humanmine.org/humanmine/templates/Gene_particularGoannotation) for a Gene or list of genes with GO annotation returns a subset of genes with that particular GO annotation.
 
 :::info
-If you can't find what you are looking for, please [Contact Us](../contact-us), and we can construct the template for you.
+If you can't find what you are looking for, please [Contact Us](/docs/contact-us), and we can construct the template for you.
 :::
 

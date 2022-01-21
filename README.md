@@ -2,6 +2,10 @@
 
 Documentation for using an InterMine webapp.
 
+### Note on relative links
+
+GitHub Pages adds a trailing slash when it sees the path is to a directory in the filesystem ([more info](https://stackoverflow.com/questions/33270605/github-pages-trailing-slashes)). This will cause relative links to have their origin nested by an additional level, causing them to lead to nonexistent paths. To avoid this, you should **always use absolute links** in the documentation.
+
 # Docusaurus 2
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
